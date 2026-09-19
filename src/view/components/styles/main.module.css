@@ -1,0 +1,36 @@
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 4px black;
+  max-width: 414px;
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+.loaderHidden {
+  visibility: hidden;
+  user-select: none;
+  z-index: -1;
+}
+.gif {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.mainFade {
+  background-color: rgba(243, 216, 206, 0.525);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}

@@ -1,0 +1,113 @@
+.listCrew {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+}
+/* 1. Ширина всего скроллбара */
+.listCrew::-webkit-scrollbar {
+  width: 12px; /* вертикальный */
+  height: 12px; /* горизонтальный */
+}
+.listCrew::-webkit-scrollbar-track {
+  background: #2c2c2c79;
+  border-radius: 10px;
+}
+.listCrew::-webkit-scrollbar-thumb {
+  background-color: #282828;
+  border-radius: 10px;
+  border: 3px solid #2c2c2c79;
+}
+.listCrew::-webkit-scrollbar-thumb:hover {
+  background: #282828;
+}
+.personCrew {
+  width: 200px;
+  min-width: 200px;
+  height: 260px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: 100%;
+  background-position: center top;
+  padding: 8px;
+}
+.actorName {
+  color: #dddddd;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.actorProff {
+  color: #dddddd;
+  font-size: 16px;
+  font-weight: 600;
+}
+.listMovies {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  padding: 12px 4px;
+  padding-bottom: 12px;
+  overflow-x: auto;
+}
+
+.listMovies::-webkit-scrollbar {
+  width: 12px; /* вертикальный */
+  height: 12px; /* горизонтальный */
+}
+.listMovies::-webkit-scrollbar-track {
+  background: #2c2c2c79;
+  border-radius: 10px;
+}
+.listMovies::-webkit-scrollbar-thumb {
+  background-color: #282828;
+  border-radius: 10px;
+  border: 3px solid #2c2c2c79;
+}
+.listMovies::-webkit-scrollbar-thumb:hover {
+  background: #282828;
+}
+
+.movie {
+  width: 200px;
+  min-width: 200px;
+  height: 260px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: 100%;
+  background-position: center top;
+  padding: 8px;
+}
+.movieName {
+  color: #dddddd;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.yearMovie {
+  color: #dddddd;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px;
+}
+.crewTitle {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+  color: #ddddddb8;
+  text-transform: uppercase;
+}
+.crewBox {
+  padding: 30px 30px;
+}

@@ -1,0 +1,120 @@
+.list {
+  gap: 17px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 450px);
+  grid-auto-rows: 450px;
+  width: 100%;
+  grid-auto-flow: dense;
+  padding: 110px 20px 20px 20px;
+}
+.li {
+  transition: box-shadow 0.5s;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.wrapperInfo {
+  padding: 7px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  min-height: 140px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: blur(7px);
+}
+.name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 17px;
+  min-height: 51px;
+  color: #fefcf4;
+  max-width: 324px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detailsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.ratingWrapper {
+  color: #240f0e;
+}
+.year {
+  font-weight: 600;
+  font-size: 17px;
+  color: #240f0e;
+  color: #e2e0d8;
+}
+.iconRating {
+  background-image: url(/star.svg);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+}
+.ratingElement {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+  color: #e2e0d8;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (hover: hover) {
+  .li:hover {
+    box-shadow: 0px 0px 20px #fff;
+  }
+}
+@media (max-width: 1024px) {
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 550px) {
+  .list {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+  .name {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .year {
+    font-size: 15px;
+  }
+  .ratingElement {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .list {
+    gap: 17px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .name {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .year {
+    font-size: 16px;
+  }
+  .ratingElement {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
