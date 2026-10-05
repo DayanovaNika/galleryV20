@@ -256,6 +256,8 @@ class SliderPrewiew {
   }
 
   sliderCrew(data) {
+    console.log(data);
+    
     if (data && data.persons) {
       const listCrew = new Creator(listCrewParams).getElement();
       data.persons.forEach((element) => {
@@ -263,6 +265,8 @@ class SliderPrewiew {
                 background: 
                 linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), 
                 url(${element.photo}) no-repeat center/cover;`;
+        personCrewParams.attributes["data-person-id"] = element.id
+        console.log(personCrewParams);
         const personCrew = new Creator(personCrewParams).getElement();
         listCrew.append(personCrew);
         /* eslint-disable */
@@ -316,6 +320,8 @@ class SliderPrewiew {
     }
   }
 }
+
+
 
 export class PreviewView {
   cardElement;

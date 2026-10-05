@@ -12,6 +12,7 @@ export const personCrewParams = {
   classList: [styleSlider.personCrew],
   attributes: {
     style: "",
+    "data-person-id": "",
   },
 };
 export const actorNameParams = {

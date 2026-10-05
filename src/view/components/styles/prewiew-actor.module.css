@@ -1,0 +1,132 @@
+    .cardElement {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 100px;
+    }
+
+    .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    background-color: rgb(16, 16, 16);
+    }
+
+    .photoWrapper {
+    flex-shrink: 0;
+    width: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgb(48, 48, 48);
+    }
+
+    .photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+
+    .infoColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+
+    @media (max-width: 700px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .photoWrapper {
+        width: 220px;
+    }
+    }
+
+    .name {
+    font-size: 40px;
+    font-weight: 700;
+    color: #dddddd;
+    margin: 0;
+    }
+
+    .profession {
+    font-size: 20px;
+    color: #ddddddb8;
+    text-transform: capitalize;
+    }
+
+    .infoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 16px;
+    }
+
+    .cellInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 140px;
+    }
+
+    .titleInfo {
+    font-size: 16px;
+    color: #ddddddb8;
+    }
+
+    .valueInfo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #dddddd;
+    }
+
+    .factsWrapper {
+    max-width: 600px;
+    padding: 30px;
+    }
+
+    .factsTitle {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    color: #ddddddb8;
+    }
+
+    .factsList {
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .factsList ::before {
+    content: "•";
+    font-weight: bold;
+    margin-right: 1em;
+    }
+
+    .fact {
+    color: #dddddd;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    }
+
+    @media (max-width: 920px) {
+    .name {
+        font-size: 32px;
+    }
+    .profession {
+        font-size: 18px;
+    }
+    .factsTitle {
+        font-size: 22px;
+    }
+    .fact {
+        font-size: 18px;
+    }
+    }

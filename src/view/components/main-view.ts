@@ -1,7 +1,7 @@
 import Creator from "../../core/creator";
 import type { DataTypes } from "../../types/data-types";
 import { PreviewView } from "./prewiew-view";
-
+import { ActorsPrewiew } from "./prewiew-actor-view";
 import {
   mainParams,
   listParams,
@@ -28,6 +28,7 @@ export class MainView {
   container;
   loader;
   prewiew;
+  prewiewActor;
 
   constructor() {
     this.element = new Creator(mainParams).getElement();
@@ -37,13 +38,15 @@ export class MainView {
     this.element.append(this.container);
     this.loader = this.createLoader();
     this.prewiew = null;
+    this.prewiewActor = null;
   }
 
   createImageList(data: DataTypes) {
     const template = new DocumentFragment();
     this.clear();
-
-    data.docs.forEach((imageInfo) => {
+    console.log(data);
+    
+    data.forEach((imageInfo) => {
       liParams.attributes["data-id"] = imageInfo.id;
       const li = new Creator(liParams).getElement();
 
@@ -131,12 +134,30 @@ export class MainView {
   }
 
   makePrewiew(dataCard) {
-    if (this.prewiew) {
-      this.prewiew.remove(); // убираем старый из DOM
-    }
-    this.prewiew = new PreviewView(dataCard).getPrewiew();
-    this.container.append(this.prewiew);
+  if (this.prewiew) {
+    this.prewiew.remove(); // убираем старый из DOM
   }
+  if (this.prewiewActor) {
+    this.prewiewActor.remove(); // убираем страницу актёра, если была открыта
+    this.prewiewActor = null;
+  }
+  this.prewiew = new PreviewView(dataCard).getPrewiew();
+  this.container.append(this.prewiew);
+}
+
+  
+    makeActorPrewiew(dataActor) {
+  if (this.prewiewActor) {
+    this.prewiewActor.remove(); // убираем старую страницу актёра, если уже была открыта
+  }
+  if (this.prewiew) {
+    this.prewiew.remove(); // убираем превью фильма, чтобы не копились оба блока разом
+    this.prewiew = null;
+  }
+  this.prewiewActor = new ActorsPrewiew(dataActor).getPrewiew();
+  this.container.append(this.prewiewActor);
+  this.scrollToTop()
+}
 
   scrollToTop() {
   window.scrollTo({

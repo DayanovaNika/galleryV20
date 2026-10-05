@@ -61,6 +61,8 @@ export class Controller {
     this.view.mainView.scrollToTop();
   }
 
+
+
   setListListener() {
     this.view.appContainer.addEventListener("click", async (event) => {
       if (event.target.closest("[data-value]")) {
@@ -98,6 +100,21 @@ export class Controller {
         }
 
         await this.showPrewiew(event);
+      }
+
+      if (event.target.closest("[data-person-id]")) {
+          const isPersonsId = event.target.getAttribute("data-person-id")
+          console.log(isPersonsId);
+          
+          const personData: Person = await this.model.getData({
+              version: "1.5",
+              chapter: "person",
+              path: isPersonsId,
+          });
+          
+          this.model.actorData = personData
+          this.view.mainView.makeActorPrewiew(this.model.actorData) 
+          console.log(this.model.actorData);
       }
     });
   }
