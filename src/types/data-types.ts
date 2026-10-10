@@ -187,3 +187,7 @@ export interface MovieApiListResponse {
   page: number;
   pages: number;
 }
+
+// Список карточек, который рендерит MainView.createImageList —
+// уже распакованный массив (docs), без обёртки пагинации
+export type DataTypes = MovieApiResponse[];
