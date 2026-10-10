@@ -112,9 +112,33 @@ export class Controller {
               path: isPersonsId,
           });
           
-          this.model.actorData = personData
-          this.view.mainView.makeActorPrewiew(this.model.actorData) 
-          console.log(this.model.actorData);
+          const movieIds = (personData.movies || []).map((movie) => movie.id);
+        
+          if (movieIds.length) {
+            const postersResponse = await this.model.getData({
+              version: "1.4",
+              chapter: "movie",
+              path: "",
+              params: {
+                id: movieIds,
+                limit: movieIds.length,
+              },
+          });
+        
+            const postersMap = new Map(
+              (postersResponse?.docs || []).map((movie) => [movie.id, movie.poster]),
+            );
+        
+            personData.movies = personData.movies.map((movie) => ({
+              ...movie,
+              poster: postersMap.get(movie.id) ?? null,
+            }));
+          }
+        
+          this.view.mainView.removeLoader();
+          this.model.actorData = personData;
+          this.view.mainView.makeActorPrewiew(this.model.actorData);
+          this.view.mainView.scrollToTop();
       }
     });
   }
