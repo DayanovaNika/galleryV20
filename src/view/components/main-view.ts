@@ -133,6 +133,23 @@ export class MainView {
     this.listElement.remove();
   }
 
+  // Используется роутером при переходе на "/": убирает открытую
+  // карточку фильма/актёра и возвращает список в DOM, если он был
+  // изъят оттуда через removeList()
+  restoreList() {
+    if (this.prewiew) {
+      this.prewiew.remove();
+      this.prewiew = null;
+    }
+    if (this.prewiewActor) {
+      this.prewiewActor.remove();
+      this.prewiewActor = null;
+    }
+    if (!this.listElement.isConnected) {
+      this.container.prepend(this.listElement);
+    }
+  }
+
   makePrewiew(dataCard) {
   if (this.prewiew) {
     this.prewiew.remove(); // убираем старый из DOM
