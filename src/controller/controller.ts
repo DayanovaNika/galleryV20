@@ -73,6 +73,9 @@ export class Controller {
 
   async renderSearchResults(query: string) {
     this.view.mainView.showLoader();
+    // убираем открытую страницу фильма/актёра и возвращаем список
+    // в DOM, если он был изъят оттуда через removeList()
+    this.view.mainView.restoreList();
 
     const response = await this.model.getData({
       version: "1.4",
@@ -87,12 +90,15 @@ export class Controller {
 
     this.model.setData(response);
     this.model.sortRating(this.model.dataFromServer);
-    this.view.mainView.createImageList(this.model.dataFromServer);
+    this.view.mainView.createImageList(this.model.dataFromServer.docs);
     this.view.mainView.removeLoader();
   }
 
   async renderByGenre(genreName: string) {
     this.view.mainView.showLoader();
+    // та же причина — страница фильма/актёра могла оставить
+    // listElement отключённым от DOM
+    this.view.mainView.restoreList();
 
     const responseData = await this.model.getData({
       version: "1.4",
@@ -106,7 +112,7 @@ export class Controller {
 
     this.model.setData(responseData);
     this.model.sortRating(this.model.dataFromServer);
-    this.view.mainView.createImageList(this.model.dataFromServer);
+    this.view.mainView.createImageList(this.model.dataFromServer.docs);
     this.view.mainView.removeLoader();
   }
 
