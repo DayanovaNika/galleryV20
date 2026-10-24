@@ -73,8 +73,8 @@ class HeaderPrewiew {
         url(${imgUrl}) no-repeat center/cover;`;
 
     const filmName = dataPreview.alternativeName;
-    const ratingKp = dataPreview.rating.kp || "none";
-    const ratingImdb = dataPreview.rating.imdb || "none";
+    const ratingKp = dataPreview.rating && dataPreview.rating.kp || "none";
+    const ratingImdb = dataPreview.rating && dataPreview.rating.imdb || "none";
     const movieLength = dataPreview.movieLength;
     const ratingMpaa = dataPreview.ratingMpaa;
     const yearFilm = dataPreview.year;
@@ -174,20 +174,22 @@ class HeroPrewiew {
     const description = new Creator(descriptionParams).getElement();
     const descWrapper = new Creator(descWrapperParams).getElement();
     descWrapper.append(descriptionTitle, description);
-
-    const factsTitle = new Creator(factsTitleParams).getElement();
-    const factsList = new Creator(factsListParams).getElement();
-
-    facts.slice(0, 3).forEach((element) => {
-      factsParams.text = element.value;
-      const facts = new Creator(factsParams).getElement();
-      factsList.append(facts);
-    });
-
-    const factsWrapper = new Creator(factsWrapperParams).getElement();
-    factsWrapper.append(factsTitle, factsList);
     const heroInfoWrapper = new Creator(heroInfoWrapperParams).getElement();
-    heroInfoWrapper.append(descWrapper, factsWrapper);
+    heroInfoWrapper.append(descWrapper);
+
+    if (facts && facts.length > 0) {
+      const factsTitle = new Creator(factsTitleParams).getElement();
+      const factsList = new Creator(factsListParams).getElement();
+      const factsWrapper = new Creator(factsWrapperParams).getElement();
+      factsWrapper.append(factsTitle, factsList);
+
+      facts.slice(0, 3).forEach((element) => {
+        factsParams.text = element.value;
+        const facts = new Creator(factsParams).getElement();
+        factsList.append(facts);
+      });
+      heroInfoWrapper.append(factsWrapper)
+    }
     return heroInfoWrapper;
   }
 
@@ -255,12 +257,12 @@ class SliderPrewiew {
     return section;
   }
 
-  sliderCrew(data) {
-    console.log(data);
+  sliderCrew(dataArray) {
+    console.log(dataArray);
     
-    if (data && data.persons) {
+    if (dataArray && dataArray.length > 0) {
       const listCrew = new Creator(listCrewParams).getElement();
-      data.persons.forEach((element) => {
+      dataArray.forEach((element) => {
         personCrewParams.attributes.style = `
                 background: 
                 linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), 
@@ -287,7 +289,7 @@ class SliderPrewiew {
   }
 
   sliderFilms(dataArray) {
-    if (dataArray) {
+    if (dataArray && dataArray.length > 0) {
       const listMovies = new Creator(listMoviesParams).getElement();
 
       dataArray.forEach((element) => {
@@ -350,34 +352,42 @@ export class PreviewView {
     return this.cardElement;
   }
 
-  build() {
-    this.sliderCrewElement = this.sliderConstructor.sliderCrew(this.data);
-    this.similarMoviesElement = this.sliderConstructor.sliderFilms(
-      this.data.similarMovies,
-    );
-    this.prequelsElement = this.sliderConstructor.sliderFilms(
-      this.data.sequelsAndPrequels,
-    );
-
-    const sectionCrew = this.sliderConstructor.createSection(
-      "crew & cast",
-      this.sliderCrewElement,
-    );
-    const sectionSimillar = this.sliderConstructor.createSection(
-      "simillar movies",
-      this.similarMoviesElement,
-    );
-    const sectionPrequels = this.sliderConstructor.createSection(
-      "sequels & prequels",
-      this.prequelsElement,
-    );
-
+  build() {    
+    console.log(this.data);
     this.cardElement.append(
       this.headerElement,
       this.heroElement,
-      sectionCrew,
-      sectionSimillar,
-      sectionPrequels,
     );
+
+    if (this.data && this.data.persons) {
+      this.sliderCrewElement = this.sliderConstructor.sliderCrew(this.data.persons);
+      const sectionCrew = this.sliderConstructor.createSection(
+          "crew & cast",
+          this.sliderCrewElement,
+        );
+      this.cardElement.append(sectionCrew)
+    }
+
+    if (this.data && this.data.similarMovies) {
+      this.similarMoviesElement = this.sliderConstructor.sliderFilms(
+        this.data.similarMovies,
+      );
+      const sectionSimillar = this.sliderConstructor.createSection(
+        "simillar movies",
+        this.similarMoviesElement,
+      );
+      this.cardElement.append(sectionSimillar)
+    }
+
+    if (this.data && this.data.sequelsAndPrequels) {
+      this.prequelsElement = this.sliderConstructor.sliderFilms(
+        this.data.sequelsAndPrequels,
+      );
+      const sectionPrequels = this.sliderConstructor.createSection(
+        "sequels & prequels",
+        this.prequelsElement,
+      );
+      this.cardElement.append(sectionPrequels)
+    }
   }
 }

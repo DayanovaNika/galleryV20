@@ -143,6 +143,31 @@
     }
     }
 
+    // enProfession у фильма в фильмографии — это тип участия человека
+    // в проекте, а не description (description — имя персонажа, которого
+    // он играл, и к роли "актёр/озвучка/режиссёр..." отношения не имеет).
+    // Список значений собран по наблюдениям за ответами API — если
+    // встретится значение не из словаря, просто покажем его как есть.
+    const PROFESSION_LABELS: Record<string, string> = {
+    actor: "актёр",
+    voice_actor: "актёр дубляжа",
+    himself: "в роли себя",
+    director: "режиссёр",
+    producer: "продюсер",
+    writer: "сценарист",
+    composer: "композитор",
+    operator: "оператор",
+    editor: "монтажёр",
+    design: "художник-постановщик",
+    };
+
+    function translateProfession(enProfession?: string | null): string {
+    if (!enProfession) {
+        return "роль неизвестна";
+    }
+    return PROFESSION_LABELS[enProfession] ?? enProfession;
+    }
+
     class FilmographyActor {
     createSection(dataActor) {
         titleParams.text = "filmography";
@@ -155,41 +180,36 @@
         const listMovies = new Creator(listMoviesParams).getElement();
 
         (dataActor.movies || []).forEach((element) => {
-            let pathToImg = `url(${"/zaglushka.jpg"})`;
-                
-                
-                
-            if (element.poster && element.poster.url) {
-                console.log(element.poster.url);
-                pathToImg = `url(${element.poster.url})`;
-            } else if (element.poster && element.poster.previewUrl) {
-                console.log(element.poster.previewUrl);
-                pathToImg = `url(${element.poster.previewUrl})`;
-            }
+        let pathToImg = `url(${"/zaglushka.jpg"})`;
 
-            movieParams.attributes.style = `
-                        background: 
-                        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), 
-                        ${pathToImg} no-repeat center/cover;`;
-            movieParams.attributes["data-id"] = element.id;
-            const movie = new Creator(movieParams).getElement();
-            listMovies.append(movie);
-
-            movieNameParams.text =
-                element.name || element.alternativeName || "нет имени";
-            const movieName = new Creator(movieNameParams).getElement();
-            movie.append(movieName);
-
-            yearMovieParams.text =
-                element.description || element.enProfession || "роль неизвестна";
-            const role = new Creator(yearMovieParams).getElement();
-            movie.append(role);
-            });
-
-            createBox.append(title, listMovies);
-            section.append(createBox);
-            return section;
+        if (element.poster && element.poster.url) {
+            pathToImg = `url(${element.poster.url})`;
+        } else if (element.poster && element.poster.previewUrl) {
+            pathToImg = `url(${element.poster.previewUrl})`;
         }
+
+        movieParams.attributes.style = `
+                    background: 
+                    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), 
+                    ${pathToImg} no-repeat center/cover;`;
+        movieParams.attributes["data-id"] = element.id;
+        const movie = new Creator(movieParams).getElement();
+        listMovies.append(movie);
+
+        movieNameParams.text =
+            element.name || element.alternativeName || "нет имени";
+        const movieName = new Creator(movieNameParams).getElement();
+        movie.append(movieName);
+
+        yearMovieParams.text = translateProfession(element.enProfession);
+        const role = new Creator(yearMovieParams).getElement();
+        movie.append(role);
+        });
+
+        createBox.append(title, listMovies);
+        section.append(createBox);
+        return section;
+    }
     }
 
     export class ActorsPrewiew {

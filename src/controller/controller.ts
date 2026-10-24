@@ -107,6 +107,13 @@ export class Controller {
       params: {
         "genres.name": genreName,
         limit: 12,
+        // сортируем по рейтингу Кинопоиска...
+        sortField: "rating.kp",
+        sortType: -1,
+        // ...но только среди фильмов с заметным числом оценок, иначе
+        // наверх попадают нишевые тайтлы со случайно высоким рейтингом
+        // при 10-20 голосах
+        "votes.kp": "10000-99999999",
       },
     });
 
@@ -118,6 +125,10 @@ export class Controller {
 
   async renderMoviePage(id: string) {
     this.view.mainView.showLoader();
+    // сам рендер-метод отвечает за то, чтобы список (с главной/поиска/
+    // жанра) не висел в DOM поверх страницы фильма — не важно, пришли
+    // мы сюда по клику, по прямой ссылке или через F5
+    this.view.mainView.removeList();
 
     const response = await this.model.getData({
       version: "1.4",
@@ -133,6 +144,10 @@ export class Controller {
 
   async renderActorPage(id: string) {
     this.view.mainView.showLoader();
+    // та же причина, что и в renderMoviePage — раньше removeList()
+    // вызывался только из клика по [data-person-id], а при прямом
+    // заходе на /person/:id (например, по F5) клика не было вообще
+    this.view.mainView.removeList();
 
     const personData: Person = await this.model.getData({
       version: "1.5",
@@ -190,12 +205,10 @@ export class Controller {
       if (event.target.closest("[data-id]")) {
         const isCard = event.target.closest("[data-id]");
         const isId = isCard ? isCard.getAttribute("data-id") : null;
-        const isFromSlider = event.target.closest("[data-slider-films]");
 
-        if (!isFromSlider) {
-          this.view.mainView.removeList();
-        }
-
+        // removeList() теперь вызывается внутри самого renderMoviePage —
+        // так он отрабатывает одинаково и при клике, и при прямом
+        // заходе по ссылке/перезагрузке страницы
         if (isId) {
           this.router.navigate(`/movie/${isId}`);
         }
