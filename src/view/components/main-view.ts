@@ -21,6 +21,12 @@ import {
   wrapperInfoParams,
   detailsWrapperParams,
 } from "./params/main-params";
+import {
+  statusWrapperParams,
+  statusTitleParams,
+  statusMessageParams,
+  statusLinkParams,
+} from "./params/status-params";
 
 export class MainView {
   element;
@@ -29,6 +35,7 @@ export class MainView {
   loader;
   prewiew;
   prewiewActor;
+  statusView;
 
   constructor() {
     this.element = new Creator(mainParams).getElement();
@@ -39,13 +46,14 @@ export class MainView {
     this.loader = this.createLoader();
     this.prewiew = null;
     this.prewiewActor = null;
+    this.statusView = null;
   }
 
   createImageList(data: DataTypes) {
     const template = new DocumentFragment();
     this.clear();
     console.log(data);
-    
+
     data.forEach((imageInfo) => {
       liParams.attributes["data-id"] = imageInfo.id;
       const li = new Creator(liParams).getElement();
@@ -145,6 +153,10 @@ export class MainView {
       this.prewiewActor.remove();
       this.prewiewActor = null;
     }
+    if (this.statusView) {
+      this.statusView.remove();
+      this.statusView = null;
+    }
     if (!this.listElement.isConnected) {
       this.container.prepend(this.listElement);
     }
@@ -158,11 +170,15 @@ export class MainView {
     this.prewiewActor.remove(); // убираем страницу актёра, если была открыта
     this.prewiewActor = null;
   }
+  if (this.statusView) {
+    this.statusView.remove();
+    this.statusView = null;
+  }
   this.prewiew = new PreviewView(dataCard).getPrewiew();
   this.container.append(this.prewiew);
 }
 
-  
+
     makeActorPrewiew(dataActor) {
   if (this.prewiewActor) {
     this.prewiewActor.remove(); // убираем старую страницу актёра, если уже была открыта
@@ -171,10 +187,51 @@ export class MainView {
     this.prewiew.remove(); // убираем превью фильма, чтобы не копились оба блока разом
     this.prewiew = null;
   }
+  if (this.statusView) {
+    this.statusView.remove();
+    this.statusView = null;
+  }
   this.prewiewActor = new ActorsPrewiew(dataActor).getPrewiew();
   this.container.append(this.prewiewActor);
   this.scrollToTop()
 }
+
+  // Экран "не найдено" / "ошибка загрузки". kind влияет только на
+  // текст по умолчанию — визуально оба варианта выглядят одинаково
+  makeStatusView(kind: "not-found" | "error", message?: string) {
+    if (this.prewiew) {
+      this.prewiew.remove();
+      this.prewiew = null;
+    }
+    if (this.prewiewActor) {
+      this.prewiewActor.remove();
+      this.prewiewActor = null;
+    }
+    if (this.statusView) {
+      this.statusView.remove();
+      this.statusView = null;
+    }
+
+    const wrapper = new Creator(statusWrapperParams).getElement();
+
+    statusTitleParams.text =
+      kind === "not-found" ? "Страница не найдена" : "Не удалось загрузить данные";
+    const title = new Creator(statusTitleParams).getElement();
+
+    statusMessageParams.text =
+      message ??
+      (kind === "not-found"
+        ? "Проверьте ссылку — такой фильм, актёр или страница не существует."
+        : "Попробуйте обновить страницу чуть позже.");
+    const text = new Creator(statusMessageParams).getElement();
+
+    const link = new Creator(statusLinkParams).getElement();
+
+    wrapper.append(title, text, link);
+    this.statusView = wrapper;
+    this.container.append(this.statusView);
+    this.scrollToTop();
+  }
 
   scrollToTop() {
   window.scrollTo({

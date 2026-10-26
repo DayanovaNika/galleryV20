@@ -2,6 +2,7 @@ import { Model } from "../model/model";
 import { View } from "../view/view";
 import { Router } from "../router/router";
 import type { Person } from "../types/person-types";
+import { ApiError } from "../model/api-error";
 
 export class Controller {
   model = new Model();
@@ -39,7 +40,13 @@ export class Controller {
         handler: (_params, query) =>
           this.renderSearchResults(query.get("query") ?? ""),
       },
-    ]);
+      ],
+      // Срабатывает, если путь вообще не совпал ни с одним паттерном
+      // выше (например, опечатка в адресе или ссылка на несуществующий
+      // раздел) — это отдельный случай от "фильма/актёра с таким id нет",
+      // тот обрабатывается уже внутри renderMoviePage/renderActorPage
+      () => this.renderNotFound(),
+    );
 
     // Разбирает текущий URL при старте — именно это открывает
     // /movie/301 сразу, если вставить такую ссылку в браузер
@@ -77,21 +84,30 @@ export class Controller {
     // в DOM, если он был изъят оттуда через removeList()
     this.view.mainView.restoreList();
 
-    const response = await this.model.getData({
-      version: "1.4",
-      chapter: "movie",
-      path: "search",
-      params: {
-        page: 1,
-        limit: 12,
-        query,
-      },
-    });
+    try {
+      const response = await this.model.getData({
+        version: "1.4",
+        chapter: "movie",
+        path: "search",
+        params: {
+          page: 1,
+          limit: 12,
+          query,
+        },
+      });
 
-    this.model.setData(response);
-    this.model.sortRating(this.model.dataFromServer);
-    this.view.mainView.createImageList(this.model.dataFromServer.docs);
-    this.view.mainView.removeLoader();
+      this.model.setData(response);
+      this.model.sortRating(this.model.dataFromServer);
+      this.view.mainView.createImageList(this.model.dataFromServer.docs);
+    } catch (error) {
+      // у поиска нет "своего" 404 — пустой/неверный запрос это не
+      // ошибка API, а просто пустой результат, так что тут всегда
+      // общий экран ошибки загрузки
+      this.view.mainView.makeStatusView("error");
+      console.error("Ошибка при поиске:", error);
+    } finally {
+      this.view.mainView.removeLoader();
+    }
   }
 
   async renderByGenre(genreName: string) {
@@ -100,27 +116,33 @@ export class Controller {
     // listElement отключённым от DOM
     this.view.mainView.restoreList();
 
-    const responseData = await this.model.getData({
-      version: "1.4",
-      chapter: "movie",
-      path: "",
-      params: {
-        "genres.name": genreName,
-        limit: 12,
-        // сортируем по рейтингу Кинопоиска...
-        sortField: "rating.kp",
-        sortType: -1,
-        // ...но только среди фильмов с заметным числом оценок, иначе
-        // наверх попадают нишевые тайтлы со случайно высоким рейтингом
-        // при 10-20 голосах
-        "votes.kp": "10000-99999999",
-      },
-    });
+    try {
+      const responseData = await this.model.getData({
+        version: "1.4",
+        chapter: "movie",
+        path: "",
+        params: {
+          "genres.name": genreName,
+          limit: 12,
+          // сортируем по рейтингу Кинопоиска...
+          sortField: "rating.kp",
+          sortType: -1,
+          // ...но только среди фильмов с заметным числом оценок, иначе
+          // наверх попадают нишевые тайтлы со случайно высоким рейтингом
+          // при 10-20 голосах
+          "votes.kp": "10000-99999999",
+        },
+      });
 
-    this.model.setData(responseData);
-    this.model.sortRating(this.model.dataFromServer);
-    this.view.mainView.createImageList(this.model.dataFromServer.docs);
-    this.view.mainView.removeLoader();
+      this.model.setData(responseData);
+      this.model.sortRating(this.model.dataFromServer);
+      this.view.mainView.createImageList(this.model.dataFromServer.docs);
+    } catch (error) {
+      this.view.mainView.makeStatusView("error");
+      console.error("Ошибка при загрузке жанра:", error);
+    } finally {
+      this.view.mainView.removeLoader();
+    }
   }
 
   async renderMoviePage(id: string) {
@@ -130,16 +152,29 @@ export class Controller {
     // мы сюда по клику, по прямой ссылке или через F5
     this.view.mainView.removeList();
 
-    const response = await this.model.getData({
-      version: "1.4",
-      chapter: "movie",
-      path: id,
-    });
+    try {
+      const response = await this.model.getData({
+        version: "1.4",
+        chapter: "movie",
+        path: id,
+      });
 
-    this.view.mainView.removeLoader();
-    this.model.setData(response);
-    this.view.mainView.makePrewiew(this.model.dataFromServer);
-    this.view.mainView.scrollToTop();
+      this.model.setData(response);
+      this.view.mainView.makePrewiew(this.model.dataFromServer);
+      this.view.mainView.scrollToTop();
+    } catch (error) {
+      if (error instanceof ApiError && error.status === 404) {
+        this.view.mainView.makeStatusView(
+          "not-found",
+          "Фильм с таким id не найден.",
+        );
+      } else {
+        this.view.mainView.makeStatusView("error");
+      }
+      console.error("Ошибка при загрузке фильма:", error);
+    } finally {
+      this.view.mainView.removeLoader();
+    }
   }
 
   async renderActorPage(id: string) {
@@ -149,39 +184,68 @@ export class Controller {
     // заходе на /person/:id (например, по F5) клика не было вообще
     this.view.mainView.removeList();
 
-    const personData: Person = await this.model.getData({
-      version: "1.5",
-      chapter: "person",
-      path: id,
-    });
-
-    const movieIds = (personData.movies || []).map((movie) => movie.id);
-
-    if (movieIds.length) {
-      const postersResponse = await this.model.getData({
-        version: "1.4",
-        chapter: "movie",
-        path: "",
-        params: {
-          id: movieIds,
-          limit: movieIds.length,
-        },
+    try {
+      const personData: Person = await this.model.getData({
+        version: "1.5",
+        chapter: "person",
+        path: id,
       });
 
-      const postersMap = new Map(
-        (postersResponse?.docs || []).map((movie) => [movie.id, movie.poster]),
-      );
+      const movieIds = (personData.movies || []).map((movie) => movie.id);
 
-      personData.movies = personData.movies.map((movie) => ({
-        ...movie,
-        poster: postersMap.get(movie.id) ?? null,
-      }));
+      if (movieIds.length) {
+        // постеры — это "украшение" страницы, а не критичные данные:
+        // если этот запрос упадёт, показываем актёра как есть, с
+        // заглушками вместо постеров, а не всю страницу как ошибку
+        try {
+          const postersResponse = await this.model.getData({
+            version: "1.4",
+            chapter: "movie",
+            path: "",
+            params: {
+              id: movieIds,
+              limit: movieIds.length,
+            },
+          });
+
+          const postersMap = new Map(
+            (postersResponse?.docs || []).map((movie) => [
+              movie.id,
+              movie.poster,
+            ]),
+          );
+
+          personData.movies = personData.movies.map((movie) => ({
+            ...movie,
+            poster: postersMap.get(movie.id) ?? null,
+          }));
+        } catch (postersError) {
+          console.error("Не удалось загрузить постеры:", postersError);
+        }
+      }
+
+      this.model.actorData = personData;
+      this.view.mainView.makeActorPrewiew(this.model.actorData);
+      this.view.mainView.scrollToTop();
+    } catch (error) {
+      if (error instanceof ApiError && error.status === 404) {
+        this.view.mainView.makeStatusView(
+          "not-found",
+          "Актёр с таким id не найден.",
+        );
+      } else {
+        this.view.mainView.makeStatusView("error");
+      }
+      console.error("Ошибка при загрузке актёра:", error);
+    } finally {
+      this.view.mainView.removeLoader();
     }
+  }
 
-    this.view.mainView.removeLoader();
-    this.model.actorData = personData;
-    this.view.mainView.makeActorPrewiew(this.model.actorData);
-    this.view.mainView.scrollToTop();
+  // Вызывается роутером, если путь вообще не совпал ни с одним
+  // паттерном (опечатка в адресе, несуществующий раздел и т.д.)
+  async renderNotFound() {
+    this.view.mainView.makeStatusView("not-found");
   }
 
   // === Делегирование событий ===
@@ -223,6 +287,14 @@ export class Controller {
         if (isPersonsId) {
           this.router.navigate(`/person/${isPersonsId}`);
         }
+      }
+
+      // Ссылка "На главную" на экране 404/ошибки — перехватываем
+      // переход, чтобы роутер сменил вид без полной перезагрузки
+      // страницы (обычный <a href="/"> её бы вызвал)
+      if (event.target.closest("[data-status-home]")) {
+        event.preventDefault();
+        this.router.navigate("/");
       }
     });
   }

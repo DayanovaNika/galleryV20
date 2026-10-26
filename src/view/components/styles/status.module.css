@@ -1,0 +1,39 @@
+    .statusWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-height: 40vh;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #dddddd;
+    }
+
+    .statusTitle {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    }
+
+    .statusMessage {
+    margin: 0;
+    font-size: 16px;
+    color: #ddddddb8;
+    max-width: 480px;
+    }
+
+    .statusLink {
+    margin-top: 8px;
+    padding: 10px 24px;
+    border-radius: 6px;
+    background: #dddddd;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    }
+
+    .statusLink:hover {
+    opacity: 0.85;
+    }

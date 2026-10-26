@@ -1,4 +1,5 @@
 import { Cache } from "../cache/cache";
+import { ApiError } from "./api-error";
 
 // TTL (время жизни записи в кэше) по типу данных: чем реже данные
 // меняются — тем дольше можно держать их в кэше без похода в сеть
@@ -86,25 +87,24 @@ export class Model {
       },
     };
 
-    try {
-      const response = await fetch(url, options);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
-      const data = await response.json();
-
-      // В кэш кладём только успешный ответ — ошибка сети (см. catch
-      // ниже) никогда сюда не доходит, так что протухший/пустой
-      // результат не "залипнет" в кэше
-      const ttl = this.#resolveTtl(chapter, path);
-      this.#cache.set(cacheKey, data, ttl);
-
-      return data;
-    } catch (error) {
-      console.error("Ошибка при получении данных:", error);
-      return null;
+    // Ошибку больше не гасим здесь: если fetch упадёт (сеть легла) или
+    // сервер ответит не-2xx (например, 404 — такого id нет), промис
+    // getData() отклонится, и обрабатывать это будет уже конкретный
+    // renderX в контроллере — там понятнее, что показать пользователю
+    const response = await fetch(url, options);
+    if (!response.ok) {
+      throw new ApiError(response.status);
     }
+
+    const data = await response.json();
+
+    // В кэш кладём только успешный ответ — до этой строки не дойдёт,
+    // если fetch бросит ошибку или сервер ответит не-2xx (см. throw
+    // выше), так что протухший/пустой результат не "залипнет" в кэше
+    const ttl = this.#resolveTtl(chapter, path);
+    this.#cache.set(cacheKey, data, ttl);
+
+    return data;
   }
 
   async setData(data) {
