@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 12px;
     min-height: 40vh;
+    margin-top: 80px;
     padding: 40px 20px;
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -29,9 +30,14 @@
     padding: 10px 24px;
     border-radius: 6px;
     background: #dddddd;
-    color: #111;
     text-decoration: none;
     font-weight: 600;
+    }
+
+    .statusWrapper a.statusLink,
+    .statusWrapper a.statusLink:link,
+    .statusWrapper a.statusLink:visited {
+    color: #111111;
     }
 
     .statusLink:hover {

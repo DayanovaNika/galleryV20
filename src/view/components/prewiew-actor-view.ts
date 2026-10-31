@@ -121,15 +121,24 @@
     factsElement;
 
     constructor(dataActor) {
-        this.factsElement = new Creator(actorFactsWrapperParams).getElement();
+        this.factsElement = null;
         this.build(dataActor);
     }
 
     build(dataActor) {
+        // Пустые записи отбрасываем: если фактов нет совсем, блок (вместе
+        // с заголовком) вообще не создаём — getFacts() вернёт null
+        const facts = (dataActor.facts || []).filter((fact) => fact.value);
+
+        if (!facts.length) {
+        return;
+        }
+
+        this.factsElement = new Creator(actorFactsWrapperParams).getElement();
         const factsTitle = new Creator(actorFactsTitleParams).getElement();
         const factsList = new Creator(actorFactsListParams).getElement();
 
-        (dataActor.facts || []).forEach((fact) => {
+        facts.forEach((fact) => {
         actorFactParams.text = fact.value;
         const factEl = new Creator(actorFactParams).getElement();
         factsList.append(factEl);
@@ -170,6 +179,11 @@
 
     class FilmographyActor {
     createSection(dataActor) {
+        // Нет ни одной работы — секцию с заголовком не рисуем
+        if (!(dataActor.movies || []).length) {
+        return null;
+        }
+
         titleParams.text = "filmography";
         const title = new Creator(titleParams).getElement();
         const createBox = new Creator(createBoxParams).getElement();
@@ -201,7 +215,12 @@
         const movieName = new Creator(movieNameParams).getElement();
         movie.append(movieName);
 
-        yearMovieParams.text = translateProfession(element.enProfession);
+        // Для актёрских ролей показываем имя персонажа (description уже
+        // на русском, т.к. данные берутся из Кинопоиска). Если персонажа
+        // нет — например, у режиссёра или сценариста — показываем тип
+        // участия в проекте на русском
+        yearMovieParams.text =
+            element.description || translateProfession(element.enProfession);
         const role = new Creator(yearMovieParams).getElement();
         movie.append(role);
         });
@@ -227,7 +246,16 @@
         const facts = new FactsActor(dataActor).getFacts();
         const filmography = new FilmographyActor().createSection(dataActor);
 
-        this.prewiewActorsElement.append(header, facts, filmography);
+        this.prewiewActorsElement.append(header);
+
+        // Блоки без данных приходят как null — их просто пропускаем
+        if (facts) {
+        this.prewiewActorsElement.append(facts);
+        }
+
+        if (filmography) {
+        this.prewiewActorsElement.append(filmography);
+        }
     }
 
     getPrewiew() {

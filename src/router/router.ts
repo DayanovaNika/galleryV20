@@ -5,7 +5,7 @@
     ) => void | Promise<void>;
 
     interface RouteDefinition {
-    pattern: string; // например "/movie/:id"
+    pattern: string; 
     handler: RouteHandler;
     }
 
@@ -17,20 +17,15 @@
         this.#routes = routes;
         this.#notFoundHandler = notFoundHandler;
 
-        // "назад"/"вперёд" в браузере — просто пересчитываем маршрут
-        // без повторного pushState (история уже обновлена самим браузером)
         window.addEventListener("popstate", () => {
         this.resolve(window.location.pathname, window.location.search);
         });
     }
 
-    // Вызывается один раз при старте приложения — обрабатывает
-    // путь, с которым страница была открыта (прямой переход по ссылке)
     start() {
         this.resolve(window.location.pathname, window.location.search);
     }
 
-    // Программный переход: меняет адресную строку и сразу рендерит маршрут
     navigate(path: string) {
         const [pathname, search = ""] = path.split("?");
         const currentPath = window.location.pathname + window.location.search;

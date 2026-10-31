@@ -89,13 +89,6 @@ class HeaderPrewiew {
       ["возрастной рейтинг"]: ratingMpaa ?? "none",
     };
 
-    // const persons = dataPreview.persons
-    // const premiereWorld = dataPreview.premiere.world
-    // const premiereRussia = dataPreview.premiere.russia
-    // const sequels = dataPreview.sequelsAndPrequels
-    // const similarMovies = dataPreview.similarMovies
-
-    // 1 создать переменные в которые нужно вытащить данные
 
     const descFilmPrewiew = new Creator(descFilmPrewiewParams).getElement();
     genresTypeParams.text = filmType;

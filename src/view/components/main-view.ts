@@ -199,6 +199,11 @@ export class MainView {
   // Экран "не найдено" / "ошибка загрузки". kind влияет только на
   // текст по умолчанию — визуально оба варианта выглядят одинаково
   makeStatusView(kind: "not-found" | "error", message?: string) {
+    // убираем список, иначе экран статуса дописывается под ним, а не
+    // вместо него (как делают страницы фильма и актёра); при следующем
+    // переходе на список/поиск/жанр его вернёт restoreList()
+    this.removeList();
+
     if (this.prewiew) {
       this.prewiew.remove();
       this.prewiew = null;

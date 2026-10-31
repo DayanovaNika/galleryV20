@@ -4,6 +4,32 @@ import { Router } from "../router/router";
 import type { Person } from "../types/person-types";
 import { ApiError } from "../model/api-error";
 
+// Сколько фильмов запрашиваем за один раз при подгрузке постеров
+// фильмографии (у API есть верхний предел на limit)
+const POSTERS_CHUNK_SIZE = 100;
+
+// API отдаёт фильмографию сгруппированной по профессиям, и у человека
+// вроде Брэда Питта первыми идут десятки продюсерских работ, а роли
+// актёра — только в конце. Для страницы актёра важнее его роли, поэтому
+// выводим их первыми. Остальное остаётся в исходном порядке (sort в
+// современных браузерах стабильный)
+const PROFESSION_ORDER: Record<string, number> = {
+  actor: 0,
+  voice_actor: 1,
+  himself: 2,
+  director: 3,
+  writer: 4,
+  producer: 5,
+};
+
+const professionRank = (enProfession?: string | null): number =>
+  enProfession ? (PROFESSION_ORDER[enProfession] ?? 99) : 99;
+
+// Есть ли у фильма путь до картинки (та же проверка, что и при
+// отрисовке карточки: url или previewUrl)
+const hasPoster = (movie: { poster?: { url?: string; previewUrl?: string } | null }): boolean =>
+  Boolean(movie.poster && (movie.poster.url || movie.poster.previewUrl));
+
 export class Controller {
   model = new Model();
   view;
@@ -14,7 +40,20 @@ export class Controller {
   }
 
   async init() {
-    this.view = new View(await this.model.genresList);
+    // Список жанров нужен только для меню. Если запрос упал (нет сети,
+    // таймаут, лимит API), страницу всё равно рисуем — просто без
+    // жанров, а не оставляем пользователя с пустым экраном
+    let genres = [];
+    let genresFailed = false;
+
+    try {
+      genres = await this.model.genresList;
+    } catch (error) {
+      genresFailed = true;
+      console.error("Не удалось загрузить список жанров:", error);
+    }
+
+    this.view = new View(genres);
     this.setFormListener();
     this.setListListener();
 
@@ -51,6 +90,15 @@ export class Controller {
     // Разбирает текущий URL при старте — именно это открывает
     // /movie/301 сразу, если вставить такую ссылку в браузер
     this.router.start();
+
+    // На остальных страницах ошибку покажет сам renderX, а на главной
+    // иначе осталась бы просто пустая страница без объяснений
+    if (genresFailed && window.location.pathname === "/") {
+      this.view.mainView.makeStatusView(
+        "error",
+        "Не удалось связаться с сервером. Проверьте интернет или VPN и обновите страницу.",
+      );
+    }
   }
 
   setFormListener() {
@@ -163,7 +211,12 @@ export class Controller {
       this.view.mainView.makePrewiew(this.model.dataFromServer);
       this.view.mainView.scrollToTop();
     } catch (error) {
-      if (error instanceof ApiError && error.status === 404) {
+      // 400 тоже считаем "не найдено": для неверного/выходящего за
+      // диапазон id (например /movie/1) API отвечает 400, а не 404
+      if (
+        error instanceof ApiError &&
+        (error.status === 404 || error.status === 400)
+      ) {
         this.view.mainView.makeStatusView(
           "not-found",
           "Фильм с таким id не найден.",
@@ -191,44 +244,78 @@ export class Controller {
         path: id,
       });
 
-      const movieIds = (personData.movies || []).map((movie) => movie.id);
+      personData.movies = personData.movies || [];
+
+      const movieIds = personData.movies.map((movie) => movie.id);
 
       if (movieIds.length) {
         // постеры — это "украшение" страницы, а не критичные данные:
-        // если этот запрос упадёт, показываем актёра как есть, с
-        // заглушками вместо постеров, а не всю страницу как ошибку
-        try {
-          const postersResponse = await this.model.getData({
-            version: "1.4",
-            chapter: "movie",
-            path: "",
-            params: {
-              id: movieIds,
-              limit: movieIds.length,
-            },
-          });
+        // если запрос упадёт, показываем актёра как есть, с заглушками
+        // вместо постеров, а не всю страницу как ошибку.
+        // У актёров с большой фильмографией (сотни работ) один запрос
+        // со всеми id API отклоняет (400: превышен limit / слишком длинный
+        // URL), поэтому режем id на порции. Один и тот же фильм может
+        // встречаться в списке несколько раз (разные профессии) —
+        // дубли убираем через Set
+        const uniqueIds = [...new Set(movieIds)];
+        const chunks: number[][] = [];
 
-          const postersMap = new Map(
-            (postersResponse?.docs || []).map((movie) => [
-              movie.id,
-              movie.poster,
-            ]),
-          );
-
-          personData.movies = personData.movies.map((movie) => ({
-            ...movie,
-            poster: postersMap.get(movie.id) ?? null,
-          }));
-        } catch (postersError) {
-          console.error("Не удалось загрузить постеры:", postersError);
+        for (let i = 0; i < uniqueIds.length; i += POSTERS_CHUNK_SIZE) {
+          chunks.push(uniqueIds.slice(i, i + POSTERS_CHUNK_SIZE));
         }
+
+        // allSettled: если одна порция упадёт, постеры из остальных
+        // всё равно подтянутся
+        const results = await Promise.allSettled(
+          chunks.map((ids) =>
+            this.model.getData({
+              version: "1.4",
+              chapter: "movie",
+              path: "",
+              params: {
+                id: ids,
+                limit: ids.length,
+              },
+            }),
+          ),
+        );
+
+        const postersMap = new Map();
+
+        results.forEach((result) => {
+          if (result.status === "fulfilled") {
+            (result.value?.docs || []).forEach((movie) => {
+              postersMap.set(movie.id, movie.poster);
+            });
+          } else {
+            console.error("Не удалось загрузить порцию постеров:", result.reason);
+          }
+        });
+
+        personData.movies = personData.movies.map((movie) => ({
+          ...movie,
+          poster: postersMap.get(movie.id) ?? null,
+        }));
       }
+
+      // Сортируем уже после подгрузки постеров, потому что нужно знать,
+      // у каких фильмов он есть: сначала фильмы с постером, внутри каждой
+      // группы — по профессии (актёр → озвучка → ... → продюсер).
+      // sort стабильный, поэтому остальной порядок API сохраняется
+      personData.movies = [...personData.movies].sort(
+        (a, b) =>
+          Number(!hasPoster(a)) - Number(!hasPoster(b)) ||
+          professionRank(a.enProfession) - professionRank(b.enProfession),
+      );
 
       this.model.actorData = personData;
       this.view.mainView.makeActorPrewiew(this.model.actorData);
       this.view.mainView.scrollToTop();
     } catch (error) {
-      if (error instanceof ApiError && error.status === 404) {
+      if (
+        error instanceof ApiError &&
+        (error.status === 404 || error.status === 400)
+      ) {
         this.view.mainView.makeStatusView(
           "not-found",
           "Актёр с таким id не найден.",
@@ -259,7 +346,10 @@ export class Controller {
       if (event.target.closest("[data-value]")) {
         const btnValue = this.view.headerView.getBtnValue(event) as string;
         this.router.navigate(`/genre/${encodeURIComponent(btnValue)}`);
-        this.view.headerView.toggleClasses();
+        // именно закрываем, а не переключаем: на широком экране меню
+        // не открывалось, и toggle оставлял бы классы "открыто", которые
+        // проявлялись бы при сужении окна до мобильной ширины
+        this.view.headerView.closeMenu();
       }
 
       if (event.target.closest("#burger")) {

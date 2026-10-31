@@ -26,8 +26,6 @@ export interface PersonMovie {
   description: string | null;
   enProfession: string;
   professionId: number;
-  // Поле не приходит из /v1.5/person/{id} — подмешивается вручную
-  // отдельным запросом к /v1.4/movie по списку id (см. Controller.renderActorPage)
   poster?: { url?: string; previewUrl?: string } | null;
 }
 

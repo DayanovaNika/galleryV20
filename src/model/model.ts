@@ -1,12 +1,10 @@
 import { Cache } from "../cache/cache";
 import { ApiError } from "./api-error";
 
-// TTL (время жизни записи в кэше) по типу данных: чем реже данные
-// меняются — тем дольше можно держать их в кэше без похода в сеть
 const TTL = {
-  MOVIE_OR_PERSON: 10*1000, // 30 минут — карточка фильма/актёра
-  LIST: 10 * 60 * 1000, // 10 минут — поиск и список по жанру
-  GENRES: 24 * 60 * 60 * 1000, // 24 часа — список жанров почти не меняется
+  MOVIE_OR_PERSON: 10*1000, 
+  LIST: 10 * 60 * 1000, 
+  GENRES: 24 * 60 * 60 * 1000, 
 };
 
 export class Model {
@@ -25,8 +23,6 @@ export class Model {
     });
   }
 
-  // Какой TTL назначить ответу — решаем по chapter/path запроса,
-  // ничего в сигнатуре getData менять для этого не нужно
   #resolveTtl(chapter: string, path: string): number {
     if (chapter === "movie" && path === "possible-values-by-field") {
       return TTL.GENRES;
@@ -36,15 +32,14 @@ export class Model {
       return TTL.LIST;
     }
 
-    // /v1.4/movie/{id} и /v1.5/person/{id} — карточки конкретного фильма/актёра
     return TTL.MOVIE_OR_PERSON;
   }
 
   async getData({
-    version = "", // версия
-    chapter = "", // например "movie"
-    path = "", // например "search" или "possible-values-by-field"
-    params = {}, // страницы, количество items и д.р.
+    version = "", 
+    chapter = "",
+    path = "", 
+    params = {}, 
   } = {}) {
     const baseURL = "https://api.poiskkino.dev";
 
@@ -68,9 +63,6 @@ export class Model {
       }
     }
 
-    // Кэш проверяем по тем же "сырым" входным параметрам запроса
-    // (version/chapter/path/params), а не по готовому url — так ключ
-    // не зависит от порядка добавления query-параметров в URL
     const cacheKey = Cache.buildKey({ version, chapter, path, params });
     const cached = this.#cache.get(cacheKey);
 
@@ -87,10 +79,6 @@ export class Model {
       },
     };
 
-    // Ошибку больше не гасим здесь: если fetch упадёт (сеть легла) или
-    // сервер ответит не-2xx (например, 404 — такого id нет), промис
-    // getData() отклонится, и обрабатывать это будет уже конкретный
-    // renderX в контроллере — там понятнее, что показать пользователю
     const response = await fetch(url, options);
     if (!response.ok) {
       throw new ApiError(response.status);
@@ -98,9 +86,6 @@ export class Model {
 
     const data = await response.json();
 
-    // В кэш кладём только успешный ответ — до этой строки не дойдёт,
-    // если fetch бросит ошибку или сервер ответит не-2xx (см. throw
-    // выше), так что протухший/пустой результат не "залипнет" в кэше
     const ttl = this.#resolveTtl(chapter, path);
     this.#cache.set(cacheKey, data, ttl);
 

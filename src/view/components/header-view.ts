@@ -107,4 +107,10 @@ export class HeaderView {
     this.buttonsContainer.classList.toggle(styleHeader.wrapperButtonsOpen);
     this.form.classList.toggle(styleHeader.formOpen);
   }
+  closeMenu() {
+  this.fade.classList.remove(styleHeader.fadeOpen);
+  this.burger.classList.remove(styleBurger.active);
+  this.buttonsContainer.classList.remove(styleHeader.wrapperButtonsOpen);
+  this.form.classList.remove(styleHeader.formOpen);
+}
 }

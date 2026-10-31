@@ -1,6 +1,4 @@
-// Версия в префиксе — чтобы при изменении формата ответов API
-// можно было одним изменением константы "обнулить" весь старый кэш:
-// старые записи просто перестанут матчиться новым ключам.
+
 const CACHE_PREFIX = "pk_cache:v1:";
 const INDEX_KEY = `${CACHE_PREFIX}__index__`;
 
@@ -16,10 +14,6 @@ export class Cache {
     this.#storage = storage;
   }
 
-  // Стабильная сериализация параметров запроса в ключ: сортируем
-  // ключи объекта, чтобы {a:1,b:2} и {b:2,a:1} давали один и тот же
-  // ключ кэша (иначе один и тот же запрос с разным порядком полей
-  // считался бы разными записями)
   static buildKey(parts: Record<string, unknown>): string {
     const sorted = Object.keys(parts)
       .sort()
@@ -48,7 +42,6 @@ export class Cache {
 
       return entry.data;
     } catch {
-      // битая запись (например, после смены формата) — считаем, что кэша нет
       this.#storage.removeItem(key);
       return null;
     }
@@ -65,22 +58,16 @@ export class Cache {
       this.#storage.setItem(key, serialized);
       this.#addToIndex(key);
     } catch {
-      // переполнение хранилища (QuotaExceededError) — чистим
-      // несколько самых старых записей и пробуем ещё раз
       this.#evictOldest();
 
       try {
         this.#storage.setItem(key, serialized);
         this.#addToIndex(key);
       } catch {
-        // снова не вышло — просто не кэшируем этот ответ,
-        // на работу приложения это не влияет
       }
     }
   }
 
-  // Индекс ключей в порядке добавления — нужен, чтобы при переполнении
-  // быстро найти самые старые записи, не перебирая весь storage
   #getIndex(): string[] {
     const raw = this.#storage.getItem(INDEX_KEY);
     return raw ? JSON.parse(raw) : [];

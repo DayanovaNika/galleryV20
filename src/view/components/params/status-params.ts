@@ -1,8 +1,5 @@
     import style from "../styles/status.module.css";
 
-    // Простой блок "ничего не найдено" / "ошибка загрузки". Минимальная
-    // вёрстка — подгоните цвета/отступы под остальной сайт при желании,
-    // структура от этого не изменится.
     export const statusWrapperParams = {
     tagName: "div",
     classList: [style.statusWrapper],
