@@ -30,6 +30,12 @@ const professionRank = (enProfession?: string | null): number =>
 const hasPoster = (movie: { poster?: { url?: string; previewUrl?: string } | null }): boolean =>
   Boolean(movie.poster && (movie.poster.url || movie.poster.previewUrl));
 
+// Отмена запроса через AbortController — это не ошибка, а штатная
+// ситуация (пользователь ушёл на другую страницу), и показывать для неё
+// экран ошибки не нужно
+const isAbortError = (error: unknown): boolean =>
+  error instanceof DOMException && error.name === "AbortError";
+
 export class Controller {
   model = new Model();
   view;
@@ -62,22 +68,28 @@ export class Controller {
     // и при навигации, и при прямом заходе по ссылке.
     this.router = new Router([
       { pattern: "/", handler: () => this.renderHome() },
+      // третьим аргументом роутер передаёт signal — он срабатывает,
+      // когда пользователь уходит на другую страницу, и renderX
+      // прекращает работу (см. AbortController в Router)
       {
         pattern: "/movie/:id",
-        handler: (params) => this.renderMoviePage(params.id),
+        handler: (params, _query, signal) =>
+          this.renderMoviePage(params.id, signal),
       },
       {
         pattern: "/person/:id",
-        handler: (params) => this.renderActorPage(params.id),
+        handler: (params, _query, signal) =>
+          this.renderActorPage(params.id, signal),
       },
       {
         pattern: "/genre/:name",
-        handler: (params) => this.renderByGenre(params.name),
+        handler: (params, _query, signal) =>
+          this.renderByGenre(params.name, signal),
       },
       {
         pattern: "/search",
-        handler: (_params, query) =>
-          this.renderSearchResults(query.get("query") ?? ""),
+        handler: (_params, query, signal) =>
+          this.renderSearchResults(query.get("query") ?? "", signal),
       },
       ],
       // Срабатывает, если путь вообще не совпал ни с одним паттерном
@@ -123,10 +135,13 @@ export class Controller {
 
   async renderHome() {
     this.view.mainView.restoreList();
+    // Если мы ушли сюда, не дождавшись загрузки другой страницы, её
+    // renderX отменён и сам лоадер уже не уберёт — убираем здесь
+    this.view.mainView.removeLoader();
     this.view.mainView.scrollToTop();
   }
 
-  async renderSearchResults(query: string) {
+  async renderSearchResults(query: string, signal?: AbortSignal) {
     this.view.mainView.showLoader();
     // убираем открытую страницу фильма/актёра и возвращаем список
     // в DOM, если он был изъят оттуда через removeList()
@@ -142,23 +157,39 @@ export class Controller {
           limit: 12,
           query,
         },
+        signal,
       });
+
+      // Пока шёл запрос (или ответ пришёл из кэша мгновенно), пользователь
+      // мог уйти на другую страницу — устаревший результат не рисуем
+      if (signal?.aborted) {
+        return;
+      }
 
       this.model.setData(response);
       this.model.sortRating(this.model.dataFromServer);
       this.view.mainView.createImageList(this.model.dataFromServer.docs);
     } catch (error) {
+      // отмена запроса — не ошибка, тихо выходим
+      if (isAbortError(error) || signal?.aborted) {
+        return;
+      }
+
       // у поиска нет "своего" 404 — пустой/неверный запрос это не
       // ошибка API, а просто пустой результат, так что тут всегда
       // общий экран ошибки загрузки
       this.view.mainView.makeStatusView("error");
       console.error("Ошибка при поиске:", error);
     } finally {
-      this.view.mainView.removeLoader();
+      // Лоадер снимаем, только если нас не отменили: иначе мы убрали бы
+      // лоадер новой страницы, на которую пользователь уже перешёл
+      if (!signal?.aborted) {
+        this.view.mainView.removeLoader();
+      }
     }
   }
 
-  async renderByGenre(genreName: string) {
+  async renderByGenre(genreName: string, signal?: AbortSignal) {
     this.view.mainView.showLoader();
     // та же причина — страница фильма/актёра могла оставить
     // listElement отключённым от DOM
@@ -180,20 +211,31 @@ export class Controller {
           // при 10-20 голосах
           "votes.kp": "10000-99999999",
         },
+        signal,
       });
+
+      if (signal?.aborted) {
+        return;
+      }
 
       this.model.setData(responseData);
       this.model.sortRating(this.model.dataFromServer);
       this.view.mainView.createImageList(this.model.dataFromServer.docs);
     } catch (error) {
+      if (isAbortError(error) || signal?.aborted) {
+        return;
+      }
+
       this.view.mainView.makeStatusView("error");
       console.error("Ошибка при загрузке жанра:", error);
     } finally {
-      this.view.mainView.removeLoader();
+      if (!signal?.aborted) {
+        this.view.mainView.removeLoader();
+      }
     }
   }
 
-  async renderMoviePage(id: string) {
+  async renderMoviePage(id: string, signal?: AbortSignal) {
     this.view.mainView.showLoader();
     // сам рендер-метод отвечает за то, чтобы список (с главной/поиска/
     // жанра) не висел в DOM поверх страницы фильма — не важно, пришли
@@ -205,12 +247,21 @@ export class Controller {
         version: "1.4",
         chapter: "movie",
         path: id,
+        signal,
       });
+
+      if (signal?.aborted) {
+        return;
+      }
 
       this.model.setData(response);
       this.view.mainView.makePrewiew(this.model.dataFromServer);
       this.view.mainView.scrollToTop();
     } catch (error) {
+      if (isAbortError(error) || signal?.aborted) {
+        return;
+      }
+
       // 400 тоже считаем "не найдено": для неверного/выходящего за
       // диапазон id (например /movie/1) API отвечает 400, а не 404
       if (
@@ -226,11 +277,13 @@ export class Controller {
       }
       console.error("Ошибка при загрузке фильма:", error);
     } finally {
-      this.view.mainView.removeLoader();
+      if (!signal?.aborted) {
+        this.view.mainView.removeLoader();
+      }
     }
   }
 
-  async renderActorPage(id: string) {
+  async renderActorPage(id: string, signal?: AbortSignal) {
     this.view.mainView.showLoader();
     // та же причина, что и в renderMoviePage — раньше removeList()
     // вызывался только из клика по [data-person-id], а при прямом
@@ -242,7 +295,13 @@ export class Controller {
         version: "1.5",
         chapter: "person",
         path: id,
+        signal,
       });
+
+      // не тратим запросы за постерами, если пользователь уже ушёл
+      if (signal?.aborted) {
+        return;
+      }
 
       personData.movies = personData.movies || [];
 
@@ -276,9 +335,16 @@ export class Controller {
                 id: ids,
                 limit: ids.length,
               },
+              signal,
             }),
           ),
         );
+
+        // за время загрузки постеров пользователь мог уйти — тогда
+        // ничего не рисуем (порции при этом уже отменены)
+        if (signal?.aborted) {
+          return;
+        }
 
         const postersMap = new Map();
 
@@ -287,7 +353,7 @@ export class Controller {
             (result.value?.docs || []).forEach((movie) => {
               postersMap.set(movie.id, movie.poster);
             });
-          } else {
+          } else if (!isAbortError(result.reason)) {
             console.error("Не удалось загрузить порцию постеров:", result.reason);
           }
         });
@@ -312,6 +378,10 @@ export class Controller {
       this.view.mainView.makeActorPrewiew(this.model.actorData);
       this.view.mainView.scrollToTop();
     } catch (error) {
+      if (isAbortError(error) || signal?.aborted) {
+        return;
+      }
+
       if (
         error instanceof ApiError &&
         (error.status === 404 || error.status === 400)
@@ -325,13 +395,17 @@ export class Controller {
       }
       console.error("Ошибка при загрузке актёра:", error);
     } finally {
-      this.view.mainView.removeLoader();
+      if (!signal?.aborted) {
+        this.view.mainView.removeLoader();
+      }
     }
   }
 
   // Вызывается роутером, если путь вообще не совпал ни с одним
   // паттерном (опечатка в адресе, несуществующий раздел и т.д.)
   async renderNotFound() {
+    // как и в renderHome: лоадер от отменённой страницы убираем здесь
+    this.view.mainView.removeLoader();
     this.view.mainView.makeStatusView("not-found");
   }
 
