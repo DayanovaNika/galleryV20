@@ -59,7 +59,7 @@ class HeaderPrewiew {
   }
 
   build(dataPreview) {
-    const bgTemplate = "/prewiewBg.png";
+    const bgTemplate = `${import.meta.env.BASE_URL}prewiewBg.png`;
     let imgUrl = bgTemplate;
     if (dataPreview.backdrop && dataPreview.backdrop.url) {
       imgUrl = dataPreview.backdrop.url;
@@ -286,7 +286,7 @@ class SliderPrewiew {
       const listMovies = new Creator(listMoviesParams).getElement();
 
       dataArray.forEach((element) => {
-        let pathToImg = `url(${"/zaglushka.jpg"})`;
+        let pathToImg = `url(${import.meta.env.BASE_URL}zaglushka.jpg)`;
 
         if (element.poster && element.poster.url) {
           pathToImg = `url(${element.poster.url})`;

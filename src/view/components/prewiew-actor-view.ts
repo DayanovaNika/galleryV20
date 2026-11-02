@@ -39,7 +39,7 @@
     build(dataActor) {
         this.headerElement = new Creator(actorHeaderParams).getElement();
 
-        const photo = dataActor.photo || "/zaglushka.jpg";
+        const photo = dataActor.photo || `${import.meta.env.BASE_URL}zaglushka.jpg`;
         const photoWrapper = new Creator(actorPhotoWrapperParams).getElement();
         actorPhotoParams.attributes.src = photo;
         actorPhotoParams.attributes.alt =
@@ -194,7 +194,7 @@
         const listMovies = new Creator(listMoviesParams).getElement();
 
         (dataActor.movies || []).forEach((element) => {
-        let pathToImg = `url(${"/zaglushka.jpg"})`;
+        let pathToImg = `url(${import.meta.env.BASE_URL}zaglushka.jpg)`;
 
         if (element.poster && element.poster.url) {
             pathToImg = `url(${element.poster.url})`;

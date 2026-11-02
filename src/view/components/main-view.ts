@@ -62,7 +62,7 @@ export class MainView {
       if (imageInfo.poster && imageInfo.poster.previewUrl) {
         image.src = imageInfo.poster.previewUrl;
       } else {
-        image.src = "/zaglushka.jpg";
+        image.src = `${import.meta.env.BASE_URL}zaglushka.jpg`;
       }
 
       const name = new Creator(nameParams).getElement();

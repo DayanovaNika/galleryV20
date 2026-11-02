@@ -105,7 +105,8 @@ export class Controller {
 
     // На остальных страницах ошибку покажет сам renderX, а на главной
     // иначе осталась бы просто пустая страница без объяснений
-    if (genresFailed && window.location.pathname === "/") {
+    // (сравниваем с корнем приложения: "/" локально и base на Pages)
+    if (genresFailed && window.location.pathname === import.meta.env.BASE_URL) {
       this.view.mainView.makeStatusView(
         "error",
         "Не удалось связаться с сервером. Проверьте интернет или VPN и обновите страницу.",

@@ -13,6 +13,20 @@
     handler: RouteHandler;
     }
 
+    // Префикс, под которым живёт приложение: "/" в dev-режиме и
+    // "/galleryV20/" на GitHub Pages (задаётся через base в vite.config).
+    // Без хвостового слэша: "" или "/galleryV20"
+    const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+    // Реальный путь из адресной строки → путь внутри приложения:
+    // "/galleryV20/movie/301" → "/movie/301", чтобы совпадать с шаблонами
+    const stripBase = (pathname: string): string => {
+    if (BASE_PATH && pathname.startsWith(BASE_PATH)) {
+        return pathname.slice(BASE_PATH.length) || "/";
+    }
+    return pathname;
+    };
+
     export class Router {
     #routes: RouteDefinition[];
     #notFoundHandler?: RouteHandler;
@@ -27,24 +41,30 @@
         // "назад"/"вперёд" в браузере — просто пересчитываем маршрут
         // без повторного pushState (история уже обновлена самим браузером)
         window.addEventListener("popstate", () => {
-        this.resolve(window.location.pathname, window.location.search);
+        this.resolve(
+            stripBase(window.location.pathname),
+            window.location.search,
+        );
         });
     }
 
     // Вызывается один раз при старте приложения — обрабатывает
     // путь, с которым страница была открыта (прямой переход по ссылке)
     start() {
-        this.resolve(window.location.pathname, window.location.search);
+        this.resolve(stripBase(window.location.pathname), window.location.search);
     }
 
-    // Программный переход: меняет адресную строку и сразу рендерит маршрут
+    // Программный переход: меняет адресную строку и сразу рендерит маршрут.
+    // path — путь внутри приложения ("/movie/301"), префикс base
+    // добавляется только при записи в адресную строку
     navigate(path: string) {
         const [pathname, search = ""] = path.split("?");
-        const currentPath = window.location.pathname + window.location.search;
+        const currentPath =
+        stripBase(window.location.pathname) + window.location.search;
         const nextPath = pathname + (search ? `?${search}` : "");
 
         if (currentPath !== nextPath) {
-        window.history.pushState(null, "", path);
+        window.history.pushState(null, "", BASE_PATH + path);
         }
 
         this.resolve(pathname, search ? `?${search}` : "");

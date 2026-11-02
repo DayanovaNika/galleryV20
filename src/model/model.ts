@@ -1,6 +1,10 @@
 import { Cache } from "../cache/cache";
 import { ApiError } from "./api-error";
 
+// Ключ API берётся из файла .env в корне проекта (переменная VITE_API_KEY),
+// а не хранится в коде — .env добавлен в .gitignore и в репозиторий не попадает
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 // TTL (время жизни записи в кэше) по типу данных: чем реже данные
 // меняются — тем дольше можно держать их в кэше без похода в сеть
 const TTL = {
@@ -79,6 +83,12 @@ export class Model {
       return cached;
     }
 
+    if (!API_KEY) {
+      throw new Error(
+        "Не задан VITE_API_KEY: создайте файл .env в корне проекта (см. .env.example) и перезапустите dev-сервер",
+      );
+    }
+
     const options = {
       method: "GET",
       // если signal сработает, fetch бросит AbortError, и до записи в
@@ -86,8 +96,7 @@ export class Model {
       signal,
       headers: {
         accept: "application/json",
-        "X-API-KEY": "XH5K03S-6N74G06-JGW60VQ-CX7EBBC",
-        //   2YDRCN4-GJJ4VXC-HX99D0W-HDBNKW8
+        "X-API-KEY": API_KEY,
       },
     };
 

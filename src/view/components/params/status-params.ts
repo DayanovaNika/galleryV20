@@ -1,5 +1,8 @@
-    import style from "../styles/status.module.css";
+    import style from "../../styles/status.module.css";
 
+    // Простой блок "ничего не найдено" / "ошибка загрузки". Минимальная
+    // вёрстка — подгоните цвета/отступы под остальной сайт при желании,
+    // структура от этого не изменится.
     export const statusWrapperParams = {
     tagName: "div",
     classList: [style.statusWrapper],
@@ -24,5 +27,8 @@
     tagName: "a",
     classList: [style.statusLink],
     text: "На главную",
-    attributes: { href: "/", "data-status-home": "true" },
+    attributes: {
+        href: import.meta.env.BASE_URL,
+        "data-status-home": "true",
+    },
     };

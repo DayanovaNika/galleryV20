@@ -32,7 +32,7 @@ export const gifParams = {
   tagName: "img",
   classList: [styleMain.gif],
   attributes: {
-    src: "/gif.gif",
+    src: `${import.meta.env.BASE_URL}gif.gif`,
   },
 };
 export const fadeParams = {
