@@ -1,0 +1,4138 @@
+{
+  "аниме": [
+    {
+      "id": 749374,
+      "name": "Атака титанов",
+      "alternativeName": "Shingeki no kyojin",
+      "year": 2013,
+      "rating": {
+        "kp": 8.731,
+        "imdb": 9.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/300x450"
+      }
+    },
+    {
+      "id": 370,
+      "name": "Унесённые призраками",
+      "alternativeName": "Sen to Chihiro no kamikakushi",
+      "year": 2001,
+      "rating": {
+        "kp": 8.566,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/ae3b699c-3db7-4196-a869-39b610bfe706/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/ae3b699c-3db7-4196-a869-39b610bfe706/300x450"
+      }
+    },
+    {
+      "id": 49684,
+      "name": "Ходячий замок",
+      "alternativeName": "Howl no Ugoku Shiro",
+      "year": 2004,
+      "rating": {
+        "kp": 8.348,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/8910a865-9915-4844-ad89-d4812f64a16e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/8910a865-9915-4844-ad89-d4812f64a16e/300x450"
+      }
+    },
+    {
+      "id": 4624770,
+      "name": "Синяя тюрьма: Блю Лок",
+      "alternativeName": "Blue Lock",
+      "year": 2022,
+      "rating": {
+        "kp": 8.565,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/93b1526c-9727-4454-8a82-f7de58822395/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/93b1526c-9727-4454-8a82-f7de58822395/300x450"
+      }
+    },
+    {
+      "id": 7524629,
+      "name": "Гачиакута",
+      "alternativeName": "Gachiakuta",
+      "year": 2025,
+      "rating": {
+        "kp": 8.469,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/20063597-ec11-4a2e-933d-44fb341c769b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/20063597-ec11-4a2e-933d-44fb341c769b/300x450"
+      }
+    },
+    {
+      "id": 2040161,
+      "name": "Человек-бензопила",
+      "alternativeName": "Chainsaw Man",
+      "year": 2022,
+      "rating": {
+        "kp": 8.461,
+        "imdb": 8.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/12eb3d81-f5c7-4047-aa49-140eb679eac2/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/12eb3d81-f5c7-4047-aa49-140eb679eac2/300x450"
+      }
+    },
+    {
+      "id": 958722,
+      "name": "Твоё имя",
+      "alternativeName": "Kimi no na wa.",
+      "year": 2016,
+      "rating": {
+        "kp": 8.394,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/e849937d-99d7-418f-bbaa-0a7e7cfff385/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/e849937d-99d7-418f-bbaa-0a7e7cfff385/300x450"
+      }
+    },
+    {
+      "id": 1312253,
+      "name": "Реинкарнация безработного: История о приключениях в другом мире",
+      "alternativeName": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+      "year": 2021,
+      "rating": {
+        "kp": 8.344,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/55c68444-3f39-42bd-bbc6-c40c543d2185/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/55c68444-3f39-42bd-bbc6-c40c543d2185/300x450"
+      }
+    },
+    {
+      "id": 1224030,
+      "name": "О моём перерождении в слизь",
+      "alternativeName": "Tensei Shitara Slime Datta Ken",
+      "year": 2018,
+      "rating": {
+        "kp": 8.509,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/64034d55-e16c-42b8-9729-49ec82816525/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/64034d55-e16c-42b8-9729-49ec82816525/300x450"
+      }
+    },
+    {
+      "id": 8221,
+      "name": "Мой сосед Тоторо",
+      "alternativeName": "Tonari no Totoro",
+      "year": 1988,
+      "rating": {
+        "kp": 8.25,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/507d8d5c-87e0-4b2e-8da3-e699976ab1cf/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/507d8d5c-87e0-4b2e-8da3-e699976ab1cf/300x450"
+      }
+    }
+  ],
+  "биография": [
+    {
+      "id": 462682,
+      "name": "Волк с Уолл-стрит",
+      "alternativeName": "The Wolf of Wall Street",
+      "year": 2013,
+      "rating": {
+        "kp": 8.119,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/300x450"
+      }
+    },
+    {
+      "id": 1108577,
+      "name": "Зеленая книга",
+      "alternativeName": "Green Book",
+      "year": 2018,
+      "rating": {
+        "kp": 8.55,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/1e2ed281-b1e8-4083-b721-3ece7afc1031/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/1e2ed281-b1e8-4083-b721-3ece7afc1031/300x450"
+      }
+    },
+    {
+      "id": 324,
+      "name": "Поймай меня, если сможешь",
+      "alternativeName": "Catch Me If You Can",
+      "year": 2002,
+      "rating": {
+        "kp": 8.528,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e38dd6f9-610e-4c90-8540-dc48560cb9cc/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e38dd6f9-610e-4c90-8540-dc48560cb9cc/300x450"
+      }
+    },
+    {
+      "id": 601564,
+      "name": "Легенда №17",
+      "alternativeName": "Легенда №17",
+      "year": 2012,
+      "rating": {
+        "kp": 8.063,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a8fce9c6-ed42-42e8-9727-206a6b5fb64a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a8fce9c6-ed42-42e8-9727-206a6b5fb64a/300x450"
+      }
+    },
+    {
+      "id": 387556,
+      "name": "Хатико: Самый верный друг",
+      "alternativeName": "Hachi: A Dog's Tale",
+      "year": 2008,
+      "rating": {
+        "kp": 8.388,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/82f8a2dc-a439-4832-9f0f-dc599e6e78d2/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/82f8a2dc-a439-4832-9f0f-dc599e6e78d2/300x450"
+      }
+    },
+    {
+      "id": 835086,
+      "name": "Ford против Ferrari",
+      "alternativeName": "Ford v Ferrari",
+      "year": 2019,
+      "rating": {
+        "kp": 8.232,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/211e880d-c183-43aa-83b0-13c08109eaf7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/211e880d-c183-43aa-83b0-13c08109eaf7/300x450"
+      }
+    },
+    {
+      "id": 803422,
+      "name": "Пеле: Рождение легенды",
+      "alternativeName": "Pelé: Birth of a Legend",
+      "year": 2015,
+      "rating": {
+        "kp": 8.5,
+        "imdb": 7.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/fa81d84c-9c37-4404-87bf-5d14efe188a5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/fa81d84c-9c37-4404-87bf-5d14efe188a5/300x450"
+      }
+    },
+    {
+      "id": 6056265,
+      "name": "Князь Андрей",
+      "alternativeName": "Князь Андрей",
+      "year": 2026,
+      "rating": {
+        "kp": 8.529,
+        "imdb": 6.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/48d30bac-1e3d-499a-9238-87d548835ae6/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/48d30bac-1e3d-499a-9238-87d548835ae6/300x450"
+      }
+    },
+    {
+      "id": 329,
+      "name": "Список Шиндлера",
+      "alternativeName": "Schindler's List",
+      "year": 1993,
+      "rating": {
+        "kp": 8.852,
+        "imdb": 9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/300x450"
+      }
+    },
+    {
+      "id": 530,
+      "name": "Игры разума",
+      "alternativeName": "A Beautiful Mind",
+      "year": 2001,
+      "rating": {
+        "kp": 8.535,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/80f21137-eebb-4cdc-8124-96c68c07c2a8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/80f21137-eebb-4cdc-8124-96c68c07c2a8/300x450"
+      }
+    }
+  ],
+  "боевик": [
+    {
+      "id": 1143242,
+      "name": "Джентльмены",
+      "alternativeName": "The Gentlemen",
+      "year": 2019,
+      "rating": {
+        "kp": 8.689,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/300x450"
+      }
+    },
+    {
+      "id": 41519,
+      "name": "Брат",
+      "alternativeName": "Брат",
+      "year": 1997,
+      "rating": {
+        "kp": 8.381,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/300x450"
+      }
+    },
+    {
+      "id": 464963,
+      "name": "Игра престолов",
+      "alternativeName": "Game of Thrones",
+      "year": 2011,
+      "rating": {
+        "kp": 9.008,
+        "imdb": 9.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450"
+      }
+    },
+    {
+      "id": 41520,
+      "name": "Брат 2",
+      "alternativeName": "Брат 2",
+      "year": 2000,
+      "rating": {
+        "kp": 8.31,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/80eab631-346c-4c29-b14d-1fa1438158f9/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/80eab631-346c-4c29-b14d-1fa1438158f9/300x450"
+      }
+    },
+    {
+      "id": 251733,
+      "name": "Аватар",
+      "alternativeName": "Avatar",
+      "year": 2009,
+      "rating": {
+        "kp": 8.008,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/300x450"
+      }
+    },
+    {
+      "id": 447301,
+      "name": "Начало",
+      "alternativeName": "Inception",
+      "year": 2010,
+      "rating": {
+        "kp": 8.672,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450"
+      }
+    },
+    {
+      "id": 4374,
+      "name": "Пираты Карибского моря: Проклятие Черной жемчужины",
+      "alternativeName": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "rating": {
+        "kp": 8.392,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/d7e3dbd6-e4a9-4485-b751-d02f49825166/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/d7e3dbd6-e4a9-4485-b751-d02f49825166/300x450"
+      }
+    },
+    {
+      "id": 749374,
+      "name": "Атака титанов",
+      "alternativeName": "Shingeki no kyojin",
+      "year": 2013,
+      "rating": {
+        "kp": 8.731,
+        "imdb": 9.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/300x450"
+      }
+    },
+    {
+      "id": 406408,
+      "name": "Законопослушный гражданин",
+      "alternativeName": "Law Abiding Citizen",
+      "year": 2009,
+      "rating": {
+        "kp": 8.065,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e3a342a0-6e45-4771-aa76-7d70c2cc26f4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e3a342a0-6e45-4771-aa76-7d70c2cc26f4/300x450"
+      }
+    },
+    {
+      "id": 389,
+      "name": "Леон",
+      "alternativeName": "Léon",
+      "year": 1994,
+      "rating": {
+        "kp": 8.669,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/8662d92a-5881-4600-a7ae-549e6fd53b03/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/8662d92a-5881-4600-a7ae-549e6fd53b03/300x450"
+      }
+    }
+  ],
+  "вестерн": [
+    {
+      "id": 586397,
+      "name": "Джанго освобожденный",
+      "alternativeName": "Django Unchained",
+      "year": 2012,
+      "rating": {
+        "kp": 8.259,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/401c67e4-5047-42c2-8668-aeda39da529f/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/401c67e4-5047-42c2-8668-aeda39da529f/300x450"
+      }
+    },
+    {
+      "id": 819101,
+      "name": "Омерзительная восьмерка",
+      "alternativeName": "The Hateful Eight",
+      "year": 2015,
+      "rating": {
+        "kp": 8.017,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/e5013408-8374-400b-a444-b9753e9da28d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/e5013408-8374-400b-a444-b9753e9da28d/300x450"
+      }
+    },
+    {
+      "id": 7103,
+      "name": "Назад в будущее 3",
+      "alternativeName": "Back to the Future Part III",
+      "year": 1990,
+      "rating": {
+        "kp": 8.195,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/febc0470-a6bd-4278-a95c-2c82c6f211eb/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/febc0470-a6bd-4278-a95c-2c82c6f211eb/300x450"
+      }
+    },
+    {
+      "id": 1045172,
+      "name": "Йеллоустоун",
+      "alternativeName": "Yellowstone",
+      "year": 2018,
+      "rating": {
+        "kp": 8.611,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/d591df2c-becd-4e3f-ac2d-f26ac6d8161e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/d591df2c-becd-4e3f-ac2d-f26ac6d8161e/300x450"
+      }
+    },
+    {
+      "id": 45463,
+      "name": "Человек с бульвара Капуцинов",
+      "alternativeName": "Человек с бульвара Капуцинов",
+      "year": 1987,
+      "rating": {
+        "kp": 8.151,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ecb6899e-44cd-473c-8ebf-98cfcbf1b151/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ecb6899e-44cd-473c-8ebf-98cfcbf1b151/300x450"
+      }
+    },
+    {
+      "id": 349,
+      "name": "Хороший, плохой, злой",
+      "alternativeName": "Il buono, il brutto, il cattivo",
+      "year": 1966,
+      "rating": {
+        "kp": 8.518,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/8b9d4616-9426-4c74-a63c-296189f28213/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/8b9d4616-9426-4c74-a63c-296189f28213/300x450"
+      }
+    },
+    {
+      "id": 839,
+      "name": "Спирит: Душа прерий",
+      "alternativeName": "Spirit: Stallion of the Cimarron",
+      "year": 2002,
+      "rating": {
+        "kp": 8.139,
+        "imdb": 7.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/e2e26d32-1c83-4a5d-bc3c-6700a4d1dfd6/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/e2e26d32-1c83-4a5d-bc3c-6700a4d1dfd6/300x450"
+      }
+    },
+    {
+      "id": 46420,
+      "name": "Неуловимые мстители",
+      "alternativeName": "Неуловимые мстители",
+      "year": 1966,
+      "rating": {
+        "kp": 8.123,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/9f8849a0-9ca4-4337-8a11-30d14683e2c3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/9f8849a0-9ca4-4337-8a11-30d14683e2c3/300x450"
+      }
+    },
+    {
+      "id": 4378,
+      "name": "Мэверик",
+      "alternativeName": "Maverick",
+      "year": 1994,
+      "rating": {
+        "kp": 8.065,
+        "imdb": 7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/7bbe88eb-2f2d-41bd-be84-a6f98cd781e3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/7bbe88eb-2f2d-41bd-be84-a6f98cd781e3/300x450"
+      }
+    },
+    {
+      "id": 2037,
+      "name": "Танцующий с волками",
+      "alternativeName": "Dances with Wolves",
+      "year": 1990,
+      "rating": {
+        "kp": 8.115,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/efe105f9-31e8-4661-9752-19d533269e62/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/efe105f9-31e8-4661-9752-19d533269e62/300x450"
+      }
+    }
+  ],
+  "военный": [
+    {
+      "id": 448,
+      "name": "Форрест Гамп",
+      "alternativeName": "Forrest Gump",
+      "year": 1994,
+      "rating": {
+        "kp": 8.92,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/300x450"
+      }
+    },
+    {
+      "id": 9691,
+      "name": "Бесславные ублюдки",
+      "alternativeName": "Inglourious Basterds",
+      "year": 2009,
+      "rating": {
+        "kp": 8.048,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/5e6dde98-74a8-4c02-b003-01d48e091025/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/5e6dde98-74a8-4c02-b003-01d48e091025/300x450"
+      }
+    },
+    {
+      "id": 25108,
+      "name": "В бой идут одни «старики»",
+      "alternativeName": "В бой идут одни «старики»",
+      "year": 1973,
+      "rating": {
+        "kp": 8.742,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/03265560-cacb-429a-8ccd-50403f2db552/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/03265560-cacb-429a-8ccd-50403f2db552/300x450"
+      }
+    },
+    {
+      "id": 329,
+      "name": "Список Шиндлера",
+      "alternativeName": "Schindler's List",
+      "year": 1993,
+      "rating": {
+        "kp": 8.852,
+        "imdb": 9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/300x450"
+      }
+    },
+    {
+      "id": 1000443,
+      "name": "Балканский рубеж",
+      "alternativeName": "Балканский рубеж",
+      "year": 2019,
+      "rating": {
+        "kp": 8.194,
+        "imdb": 6.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/c3acd2ca-d0c2-4b97-acd1-c0f7da2f972c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/c3acd2ca-d0c2-4b97-acd1-c0f7da2f972c/300x450"
+      }
+    },
+    {
+      "id": 649917,
+      "name": "По соображениям совести",
+      "alternativeName": "Hacksaw Ridge",
+      "year": 2016,
+      "rating": {
+        "kp": 8.253,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/83a758fc-d3f9-485a-b75f-530fb611d63c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/83a758fc-d3f9-485a-b75f-530fb611d63c/300x450"
+      }
+    },
+    {
+      "id": 41381,
+      "name": "В августе 44-го",
+      "alternativeName": "В августе 44-го",
+      "year": 2001,
+      "rating": {
+        "kp": 8.361,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/afb8b5d1-6afd-4087-8bbe-abb79e39f328/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/afb8b5d1-6afd-4087-8bbe-abb79e39f328/300x450"
+      }
+    },
+    {
+      "id": 610422,
+      "name": "Великолепный век",
+      "alternativeName": "Muhtesem Yüzyil",
+      "year": 2011,
+      "rating": {
+        "kp": 8.252,
+        "imdb": 7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/13163a77-038d-4b8e-8fd9-a845bc5e2dd3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/13163a77-038d-4b8e-8fd9-a845bc5e2dd3/300x450"
+      }
+    },
+    {
+      "id": 355,
+      "name": "Пианист",
+      "alternativeName": "The Pianist",
+      "year": 2002,
+      "rating": {
+        "kp": 8.473,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6d71694e-3796-4e1c-96aa-0e982c2bc03d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6d71694e-3796-4e1c-96aa-0e982c2bc03d/300x450"
+      }
+    },
+    {
+      "id": 1191022,
+      "name": "Подольские курсанты",
+      "alternativeName": "Подольские курсанты",
+      "year": 2020,
+      "rating": {
+        "kp": 8.412,
+        "imdb": 6.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/de10de1e-aada-4445-9e65-ec764022600a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/de10de1e-aada-4445-9e65-ec764022600a/300x450"
+      }
+    }
+  ],
+  "детектив": [
+    {
+      "id": 1188529,
+      "name": "Достать ножи",
+      "alternativeName": "Knives Out",
+      "year": 2019,
+      "rating": {
+        "kp": 8.198,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/300x450"
+      }
+    },
+    {
+      "id": 397667,
+      "name": "Остров проклятых",
+      "alternativeName": "Shutter Island",
+      "year": 2009,
+      "rating": {
+        "kp": 8.567,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/300x450"
+      }
+    },
+    {
+      "id": 775276,
+      "name": "Зверополис",
+      "alternativeName": "Zootopia",
+      "year": 2016,
+      "rating": {
+        "kp": 8.318,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/300x450"
+      }
+    },
+    {
+      "id": 447301,
+      "name": "Начало",
+      "alternativeName": "Inception",
+      "year": 2010,
+      "rating": {
+        "kp": 8.672,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450"
+      }
+    },
+    {
+      "id": 1224067,
+      "name": "Вампиры средней полосы",
+      "alternativeName": "Вампиры средней полосы",
+      "year": 2021,
+      "rating": {
+        "kp": 8.373,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/d5f54f03-ea2f-4444-8ab7-5145372b489e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/d5f54f03-ea2f-4444-8ab7-5145372b489e/300x450"
+      }
+    },
+    {
+      "id": 44386,
+      "name": "Джентльмены удачи",
+      "alternativeName": "Джентльмены удачи",
+      "year": 1971,
+      "rating": {
+        "kp": 8.559,
+        "imdb": 8.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/218102a7-96be-4d7e-8029-815de0f37cfa/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/218102a7-96be-4d7e-8029-815de0f37cfa/300x450"
+      }
+    },
+    {
+      "id": 915196,
+      "name": "Очень странные дела",
+      "alternativeName": "Stranger Things",
+      "year": 2016,
+      "rating": {
+        "kp": 8.339,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/300x450"
+      }
+    },
+    {
+      "id": 1189814,
+      "name": "Казанова",
+      "alternativeName": "Казанова",
+      "year": 2020,
+      "rating": {
+        "kp": 8.37,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/a4a8a5d6-0756-4706-b6fb-117b554ff5c1/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/a4a8a5d6-0756-4706-b6fb-117b554ff5c1/300x450"
+      }
+    },
+    {
+      "id": 461939,
+      "name": "Линкольн для адвоката",
+      "alternativeName": "The Lincoln Lawyer",
+      "year": 2011,
+      "rating": {
+        "kp": 8.097,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/f0857226-5047-4b35-9ded-0e587f303dd5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/f0857226-5047-4b35-9ded-0e587f303dd5/300x450"
+      }
+    },
+    {
+      "id": 591929,
+      "name": "Гравити Фолз",
+      "alternativeName": "Gravity Falls",
+      "year": 2012,
+      "rating": {
+        "kp": 8.946,
+        "imdb": 8.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/04954219-061a-4646-a7d6-054fdc34b053/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/04954219-061a-4646-a7d6-054fdc34b053/300x450"
+      }
+    }
+  ],
+  "детский": [
+    {
+      "id": 46483,
+      "name": "Ну, погоди!",
+      "alternativeName": "Ну, погоди!",
+      "year": 1969,
+      "rating": {
+        "kp": 8.726,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a68f7c1a-fb83-4533-a4e2-f60485f2f440/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a68f7c1a-fb83-4533-a4e2-f60485f2f440/300x450"
+      }
+    },
+    {
+      "id": 935898,
+      "name": "Три кота",
+      "alternativeName": "Три кота",
+      "year": 2015,
+      "rating": {
+        "kp": 8.352,
+        "imdb": 6.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/515b1d6a-46e3-48fb-9412-53e7f60439ca/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/515b1d6a-46e3-48fb-9412-53e7f60439ca/300x450"
+      }
+    },
+    {
+      "id": 958607,
+      "name": "Леди Баг и Супер-Кот",
+      "alternativeName": "Miraculous: Tales of Ladybug & Cat Noir",
+      "year": 2015,
+      "rating": {
+        "kp": 8.289,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/9980853d-bebd-4257-85b7-792d1020ce3a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/9980853d-bebd-4257-85b7-792d1020ce3a/300x450"
+      }
+    },
+    {
+      "id": 42326,
+      "name": "Трое из Простоквашино",
+      "alternativeName": "Трое из Простоквашино",
+      "year": 1978,
+      "rating": {
+        "kp": 8.799,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/32660c93-8722-4b77-afa5-8102ef103f9a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/32660c93-8722-4b77-afa5-8102ef103f9a/300x450"
+      }
+    },
+    {
+      "id": 45779,
+      "name": "Винни Пух",
+      "alternativeName": "Винни Пух",
+      "year": 1969,
+      "rating": {
+        "kp": 8.772,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c5b6c0c7-f300-4c3d-99f2-cd09801ff43f/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c5b6c0c7-f300-4c3d-99f2-cd09801ff43f/300x450"
+      }
+    },
+    {
+      "id": 1445170,
+      "name": "Три кота и море приключений",
+      "alternativeName": "Три кота и море приключений",
+      "year": 2022,
+      "rating": {
+        "kp": 8.422,
+        "imdb": 6.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/b4f8d337-de5d-44e2-8f6b-bc81a4bdb796/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/b4f8d337-de5d-44e2-8f6b-bc81a4bdb796/300x450"
+      }
+    },
+    {
+      "id": 983091,
+      "name": "Сказочный патруль",
+      "alternativeName": "Сказочный патруль",
+      "year": 2016,
+      "rating": {
+        "kp": 8.655,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/0cbb169a-587a-41b6-b849-8b577e6ea1e5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/0cbb169a-587a-41b6-b849-8b577e6ea1e5/300x450"
+      }
+    },
+    {
+      "id": 95231,
+      "name": "Чип и Дейл спешат на помощь",
+      "alternativeName": "Chip 'n Dale: Rescue Rangers",
+      "year": 1989,
+      "rating": {
+        "kp": 8.197,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/665bdc42-4045-4535-9ede-07b52a3c4fab/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/665bdc42-4045-4535-9ede-07b52a3c4fab/300x450"
+      }
+    },
+    {
+      "id": 5189169,
+      "name": "Маша и Медведь: 12 месяцев",
+      "alternativeName": "Маша и Медведь: 12 месяцев",
+      "year": 2022,
+      "rating": {
+        "kp": 8.485,
+        "imdb": 7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/0e229fd4-4ce8-4c1a-85ef-daeae1754445/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/0e229fd4-4ce8-4c1a-85ef-daeae1754445/300x450"
+      }
+    },
+    {
+      "id": 46223,
+      "name": "Бременские музыканты",
+      "alternativeName": "Бременские музыканты",
+      "year": 1969,
+      "rating": {
+        "kp": 8.331,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/d8cf9725-c27b-47de-9d65-67b5277c11ed/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/d8cf9725-c27b-47de-9d65-67b5277c11ed/300x450"
+      }
+    }
+  ],
+  "документальный": [
+    {
+      "id": 4716622,
+      "name": "Гарри Поттер 20 лет спустя: Возвращение в Хогвартс",
+      "alternativeName": "Harry Potter 20th Anniversary: Return to Hogwarts",
+      "year": 2022,
+      "rating": {
+        "kp": 8.046,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/33c409d8-6c98-4019-94f8-a162d5ce8e26/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/33c409d8-6c98-4019-94f8-a162d5ce8e26/300x450"
+      }
+    },
+    {
+      "id": 471002,
+      "name": "Следствие вели...",
+      "alternativeName": "Следствие вели...",
+      "year": 2006,
+      "rating": {
+        "kp": 8.403,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/dbd90a4c-3e9f-4588-92cf-0944cdccd75a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/dbd90a4c-3e9f-4588-92cf-0944cdccd75a/300x450"
+      }
+    },
+    {
+      "id": 743975,
+      "name": "Романовы",
+      "alternativeName": "Романовы",
+      "year": 2013,
+      "rating": {
+        "kp": 8.875,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/4cd54470-a818-428f-86d9-15cd0cf4e5cc/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/4cd54470-a818-428f-86d9-15cd0cf4e5cc/300x450"
+      }
+    },
+    {
+      "id": 503264,
+      "name": "Великая война",
+      "alternativeName": "Великая война",
+      "year": 2010,
+      "rating": {
+        "kp": 9.025,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e43b67b-1e8d-4aa9-a579-394eddfb84b4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e43b67b-1e8d-4aa9-a579-394eddfb84b4/300x450"
+      }
+    },
+    {
+      "id": 5452650,
+      "name": "Огненный лис",
+      "alternativeName": "Огненный лис",
+      "year": 2024,
+      "rating": {
+        "kp": 8.519,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/8bc0928c-192c-492f-bcff-663c042de9d7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/8bc0928c-192c-492f-bcff-663c042de9d7/300x450"
+      }
+    },
+    {
+      "id": 1115424,
+      "name": "Медведи Камчатки. Начало жизни",
+      "alternativeName": "Медведи Камчатки. Начало жизни",
+      "year": 2018,
+      "rating": {
+        "kp": 9.019,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/f894df38-428c-42d1-8af6-ebe29fa0a790/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/f894df38-428c-42d1-8af6-ebe29fa0a790/300x450"
+      }
+    },
+    {
+      "id": 923510,
+      "name": "Сахар",
+      "alternativeName": "That Sugar Film",
+      "year": 2014,
+      "rating": {
+        "kp": 8.128,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/385027f4-06f1-47cf-997c-6ce9540099f0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/385027f4-06f1-47cf-997c-6ce9540099f0/300x450"
+      }
+    },
+    {
+      "id": 5396107,
+      "name": "Кибердеревня: Экстра",
+      "alternativeName": "Кибердеревня: Экстра",
+      "year": 2023,
+      "rating": {
+        "kp": 8.042,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/f9c6469f-e063-422b-9834-986ad1ce2238/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/f9c6469f-e063-422b-9834-986ad1ce2238/300x450"
+      }
+    },
+    {
+      "id": 1029333,
+      "name": "Земля: Один потрясающий день",
+      "alternativeName": "Earth: One Amazing Day",
+      "year": 2017,
+      "rating": {
+        "kp": 8.974,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c9ed5b01-61d0-4da1-bc76-510d0e30ecbf/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c9ed5b01-61d0-4da1-bc76-510d0e30ecbf/300x450"
+      }
+    },
+    {
+      "id": 5497062,
+      "name": "Наше тело",
+      "alternativeName": "HumanBuddy",
+      "year": 2023,
+      "rating": {
+        "kp": 8.806,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/63ff6770-f88f-4193-9b02-4b1f11058f79/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/63ff6770-f88f-4193-9b02-4b1f11058f79/300x450"
+      }
+    }
+  ],
+  "драма": [
+    {
+      "id": 535341,
+      "name": "1+1",
+      "alternativeName": "Intouchables",
+      "year": 2011,
+      "rating": {
+        "kp": 8.867,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/caf9f155-1a19-42f1-a0f3-9c8773e9083e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/caf9f155-1a19-42f1-a0f3-9c8773e9083e/300x450"
+      }
+    },
+    {
+      "id": 1100777,
+      "name": "Триггер",
+      "alternativeName": "Триггер",
+      "year": 2018,
+      "rating": {
+        "kp": 8.45,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/5fb7d956-d5fb-4189-9ec9-1a051aaa7f41/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/5fb7d956-d5fb-4189-9ec9-1a051aaa7f41/300x450"
+      }
+    },
+    {
+      "id": 462682,
+      "name": "Волк с Уолл-стрит",
+      "alternativeName": "The Wolf of Wall Street",
+      "year": 2013,
+      "rating": {
+        "kp": 8.119,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/300x450"
+      }
+    },
+    {
+      "id": 41519,
+      "name": "Брат",
+      "alternativeName": "Брат",
+      "year": 1997,
+      "rating": {
+        "kp": 8.381,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/300x450"
+      }
+    },
+    {
+      "id": 464963,
+      "name": "Игра престолов",
+      "alternativeName": "Game of Thrones",
+      "year": 2011,
+      "rating": {
+        "kp": 9.008,
+        "imdb": 9.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450"
+      }
+    },
+    {
+      "id": 820638,
+      "name": "Мажор",
+      "alternativeName": "Мажор",
+      "year": 2014,
+      "rating": {
+        "kp": 8.115,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/aaef27dc-0109-4a19-bb1a-761e4503b6b8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/aaef27dc-0109-4a19-bb1a-761e4503b6b8/300x450"
+      }
+    },
+    {
+      "id": 1188529,
+      "name": "Достать ножи",
+      "alternativeName": "Knives Out",
+      "year": 2019,
+      "rating": {
+        "kp": 8.198,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/300x450"
+      }
+    },
+    {
+      "id": 6605654,
+      "name": "Камбэк",
+      "alternativeName": "Камбэк",
+      "year": 2025,
+      "rating": {
+        "kp": 8.079,
+        "imdb": 6.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/39a9d0fb-844a-4faa-9eb0-9cc162189f38/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/39a9d0fb-844a-4faa-9eb0-9cc162189f38/300x450"
+      }
+    },
+    {
+      "id": 397667,
+      "name": "Остров проклятых",
+      "alternativeName": "Shutter Island",
+      "year": 2009,
+      "rating": {
+        "kp": 8.567,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/300x450"
+      }
+    },
+    {
+      "id": 1108577,
+      "name": "Зеленая книга",
+      "alternativeName": "Green Book",
+      "year": 2018,
+      "rating": {
+        "kp": 8.55,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/1e2ed281-b1e8-4083-b721-3ece7afc1031/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/1e2ed281-b1e8-4083-b721-3ece7afc1031/300x450"
+      }
+    }
+  ],
+  "игра": [
+    {
+      "id": 405644,
+      "name": "КВН. Высшая лига",
+      "alternativeName": "КВН. Высшая лига",
+      "year": 1961,
+      "rating": {
+        "kp": 8.143,
+        "imdb": 6.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/8c43d8bf-b26e-46f1-a505-a99e928a5393/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/8c43d8bf-b26e-46f1-a505-a99e928a5393/300x450"
+      }
+    },
+    {
+      "id": 5194229,
+      "name": "Маска",
+      "alternativeName": "Маска",
+      "year": 2020,
+      "rating": {
+        "kp": 8.082,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/c6ffce5d-47b4-402d-94bf-a7fdb3786962/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/c6ffce5d-47b4-402d-94bf-a7fdb3786962/300x450"
+      }
+    },
+    {
+      "id": 7429055,
+      "name": "Мастер игры",
+      "alternativeName": "Мастер игры",
+      "year": 2025,
+      "rating": {
+        "kp": 8.119,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/5b89036f-c825-4d71-a49f-aa4685933a32/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/5b89036f-c825-4d71-a49f-aa4685933a32/300x450"
+      }
+    },
+    {
+      "id": 1281917,
+      "name": "Форт Боярд",
+      "alternativeName": "Форт Боярд",
+      "year": 2019,
+      "rating": {
+        "kp": 8.299,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/d7019e35-9903-46c5-856b-842a1282be3b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/d7019e35-9903-46c5-856b-842a1282be3b/300x450"
+      }
+    },
+    {
+      "id": 5255425,
+      "name": "Суперниндзя",
+      "alternativeName": "Суперниндзя",
+      "year": 2023,
+      "rating": {
+        "kp": 8.622,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/28dd8ae0-616c-450e-be25-98d1b29d3a6f/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/28dd8ae0-616c-450e-be25-98d1b29d3a6f/300x450"
+      }
+    },
+    {
+      "id": 656730,
+      "name": "Что? Где? Когда?",
+      "alternativeName": "Что? Где? Когда?",
+      "year": 1975,
+      "rating": {
+        "kp": 8.272,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/4b5781de-e3ec-4b56-b85d-4223ea58ab38/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/4b5781de-e3ec-4b56-b85d-4223ea58ab38/300x450"
+      }
+    },
+    {
+      "id": 748649,
+      "name": "Своя игра",
+      "alternativeName": "Своя игра",
+      "year": 1994,
+      "rating": {
+        "kp": 8.12,
+        "imdb": 7.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486362/36c860d5-e080-46f9-a95c-e853ef2689d5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486362/36c860d5-e080-46f9-a95c-e853ef2689d5/300x450"
+      }
+    },
+    {
+      "id": 4821503,
+      "name": "Не дрогни!",
+      "alternativeName": "Не дрогни!",
+      "year": 2022,
+      "rating": {
+        "kp": 8.001,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/d9cc4ee0-5187-491e-b206-a97f1e483865/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/d9cc4ee0-5187-491e-b206-a97f1e483865/300x450"
+      }
+    },
+    {
+      "id": 5582607,
+      "name": "Суперниндзя. Дети",
+      "alternativeName": "Суперниндзя. Дети",
+      "year": 2024,
+      "rating": {
+        "kp": 8.144,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10671298/00f0eab2-d49f-4545-8798-a72a090fa821/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10671298/00f0eab2-d49f-4545-8798-a72a090fa821/300x450"
+      }
+    },
+    {
+      "id": 1175740,
+      "name": "Между молотом и наковальней",
+      "alternativeName": "Forged in Fire",
+      "year": 2015,
+      "rating": {
+        "kp": 8.308,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/2027558c-1417-4922-9fa9-fa0ccdae3ce0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/2027558c-1417-4922-9fa9-fa0ccdae3ce0/300x450"
+      }
+    }
+  ],
+  "история": [
+    {
+      "id": 448,
+      "name": "Форрест Гамп",
+      "alternativeName": "Forrest Gump",
+      "year": 1994,
+      "rating": {
+        "kp": 8.92,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/300x450"
+      }
+    },
+    {
+      "id": 1227803,
+      "name": "Чернобыль",
+      "alternativeName": "Chernobyl",
+      "year": 2019,
+      "rating": {
+        "kp": 8.743,
+        "imdb": 9.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/3d0b4a89-acd9-49ac-a83e-480c18c41baa/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/3d0b4a89-acd9-49ac-a83e-480c18c41baa/300x450"
+      }
+    },
+    {
+      "id": 474,
+      "name": "Гладиатор",
+      "alternativeName": "Gladiator",
+      "year": 2000,
+      "rating": {
+        "kp": 8.594,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/ad4932b4-c220-48a5-9a37-40fc72da5ffa/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/ad4932b4-c220-48a5-9a37-40fc72da5ffa/300x450"
+      }
+    },
+    {
+      "id": 6056265,
+      "name": "Князь Андрей",
+      "alternativeName": "Князь Андрей",
+      "year": 2026,
+      "rating": {
+        "kp": 8.529,
+        "imdb": 6.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/48d30bac-1e3d-499a-9238-87d548835ae6/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/48d30bac-1e3d-499a-9238-87d548835ae6/300x450"
+      }
+    },
+    {
+      "id": 329,
+      "name": "Список Шиндлера",
+      "alternativeName": "Schindler's List",
+      "year": 1993,
+      "rating": {
+        "kp": 8.852,
+        "imdb": 9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1e1ac6d9-c658-4f5f-937e-d080bca0d893/300x450"
+      }
+    },
+    {
+      "id": 1000443,
+      "name": "Балканский рубеж",
+      "alternativeName": "Балканский рубеж",
+      "year": 2019,
+      "rating": {
+        "kp": 8.194,
+        "imdb": 6.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/c3acd2ca-d0c2-4b97-acd1-c0f7da2f972c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/c3acd2ca-d0c2-4b97-acd1-c0f7da2f972c/300x450"
+      }
+    },
+    {
+      "id": 649917,
+      "name": "По соображениям совести",
+      "alternativeName": "Hacksaw Ridge",
+      "year": 2016,
+      "rating": {
+        "kp": 8.253,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/83a758fc-d3f9-485a-b75f-530fb611d63c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/83a758fc-d3f9-485a-b75f-530fb611d63c/300x450"
+      }
+    },
+    {
+      "id": 965754,
+      "name": "Дело храбрых",
+      "alternativeName": "Only the Brave",
+      "year": 2017,
+      "rating": {
+        "kp": 8.316,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/946e69f2-80eb-41c1-b1cd-695a4644be55/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/946e69f2-80eb-41c1-b1cd-695a4644be55/300x450"
+      }
+    },
+    {
+      "id": 485311,
+      "name": "Король говорит!",
+      "alternativeName": "The King's Speech",
+      "year": 2010,
+      "rating": {
+        "kp": 8.066,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/87b66d75-b407-4f5b-924c-d3d3a9c96933/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/87b66d75-b407-4f5b-924c-d3d3a9c96933/300x450"
+      }
+    },
+    {
+      "id": 645276,
+      "name": "Лекарь: Ученик Авиценны",
+      "alternativeName": "The Physician",
+      "year": 2013,
+      "rating": {
+        "kp": 8.121,
+        "imdb": 7.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1900788/4236cf68-84e6-42b8-9ea8-b2a12ea58cef/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1900788/4236cf68-84e6-42b8-9ea8-b2a12ea58cef/300x450"
+      }
+    }
+  ],
+  "комедия": [
+    {
+      "id": 535341,
+      "name": "1+1",
+      "alternativeName": "Intouchables",
+      "year": 2011,
+      "rating": {
+        "kp": 8.867,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/caf9f155-1a19-42f1-a0f3-9c8773e9083e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10900341/caf9f155-1a19-42f1-a0f3-9c8773e9083e/300x450"
+      }
+    },
+    {
+      "id": 1143242,
+      "name": "Джентльмены",
+      "alternativeName": "The Gentlemen",
+      "year": 2019,
+      "rating": {
+        "kp": 8.689,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/300x450"
+      }
+    },
+    {
+      "id": 462682,
+      "name": "Волк с Уолл-стрит",
+      "alternativeName": "The Wolf of Wall Street",
+      "year": 2013,
+      "rating": {
+        "kp": 8.119,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/300x450"
+      }
+    },
+    {
+      "id": 5059049,
+      "name": "Телохранители",
+      "alternativeName": "Телохранители",
+      "year": 2023,
+      "rating": {
+        "kp": 8.269,
+        "imdb": 6.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/7c94f6ae-a774-46fa-b94c-cbf2a41d0612/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/7c94f6ae-a774-46fa-b94c-cbf2a41d0612/300x450"
+      }
+    },
+    {
+      "id": 1188529,
+      "name": "Достать ножи",
+      "alternativeName": "Knives Out",
+      "year": 2019,
+      "rating": {
+        "kp": 8.198,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/300x450"
+      }
+    },
+    {
+      "id": 1108577,
+      "name": "Зеленая книга",
+      "alternativeName": "Green Book",
+      "year": 2018,
+      "rating": {
+        "kp": 8.55,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/1e2ed281-b1e8-4083-b721-3ece7afc1031/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/1e2ed281-b1e8-4083-b721-3ece7afc1031/300x450"
+      }
+    },
+    {
+      "id": 5249042,
+      "name": "Папины дочки. Новые",
+      "alternativeName": "Папины дочки. Новые",
+      "year": 2023,
+      "rating": {
+        "kp": 8.287,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/d2b26fed-24a1-4720-910e-1b9b0279b5bc/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/d2b26fed-24a1-4720-910e-1b9b0279b5bc/300x450"
+      }
+    },
+    {
+      "id": 5916296,
+      "name": "Ландыши",
+      "alternativeName": "Ландыши",
+      "year": 2024,
+      "rating": {
+        "kp": 8.202,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cac5418a-e6d2-4fd3-8e59-0d79c1fc606c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cac5418a-e6d2-4fd3-8e59-0d79c1fc606c/300x450"
+      }
+    },
+    {
+      "id": 42664,
+      "name": "Иван Васильевич меняет профессию",
+      "alternativeName": "Иван Васильевич меняет профессию",
+      "year": 1973,
+      "rating": {
+        "kp": 8.794,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/a7ef44b8-1983-4992-a889-da6f87a3f559/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/a7ef44b8-1983-4992-a889-da6f87a3f559/300x450"
+      }
+    },
+    {
+      "id": 8124,
+      "name": "Один дома",
+      "alternativeName": "Home Alone",
+      "year": 1990,
+      "rating": {
+        "kp": 8.281,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/022a58e3-5b9b-411b-bfb3-09fedb700401/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/022a58e3-5b9b-411b-bfb3-09fedb700401/300x450"
+      }
+    }
+  ],
+  "концерт": [
+    {
+      "id": 11385623,
+      "name": "Сергей Орлов. Переходный возраст",
+      "alternativeName": "Сергей Орлов. Переходный возраст",
+      "year": 2026,
+      "rating": {
+        "kp": 8.707,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/f785a55e-db6e-4584-ab4f-0c750b88be69/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/f785a55e-db6e-4584-ab4f-0c750b88be69/300x450"
+      }
+    },
+    {
+      "id": 7484786,
+      "name": "Евгений Чебатков: Человек-слепень",
+      "alternativeName": "Евгений Чебатков: Человек-слепень",
+      "year": 2025,
+      "rating": {
+        "kp": 8.204,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/b9f8d683-04d0-424f-abfc-217df9ad460b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/b9f8d683-04d0-424f-abfc-217df9ad460b/300x450"
+      }
+    },
+    {
+      "id": 13442502,
+      "name": "Сергей Орлов: Розовый леопард",
+      "alternativeName": "Сергей Орлов: Розовый леопард",
+      "year": 2026,
+      "rating": {
+        "kp": 8.051,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/2eb71f82-5b73-487e-8b3e-bc273a2f5fbf/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/2eb71f82-5b73-487e-8b3e-bc273a2f5fbf/300x450"
+      }
+    },
+    {
+      "id": 13915537,
+      "name": "Евгений Чебатков: Искусство переговоров",
+      "alternativeName": "Евгений Чебатков: Искусство переговоров",
+      "year": 2026,
+      "rating": {
+        "kp": 8.394,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/d1da14e6-5ccb-4104-bae3-b24ec612e323/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10853012/d1da14e6-5ccb-4104-bae3-b24ec612e323/300x450"
+      }
+    },
+    {
+      "id": 13230651,
+      "name": "Назар Аудар 15 лет",
+      "alternativeName": "Назар Аудар 15 жыл",
+      "year": 2026,
+      "rating": {
+        "kp": 8.791,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/2685434d-f5bf-4870-b02b-9630a56fac06/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/2685434d-f5bf-4870-b02b-9630a56fac06/300x450"
+      }
+    },
+    {
+      "id": 10968145,
+      "name": "Кубок Чемпиона",
+      "alternativeName": "Чемпиондар кубогі",
+      "year": 2026,
+      "rating": {
+        "kp": 8.313,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/d166b6d0-c6d8-448d-b0e9-9661c2f25b14/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/d166b6d0-c6d8-448d-b0e9-9661c2f25b14/300x450"
+      }
+    },
+    {
+      "id": 12189963,
+      "name": "Внук Сары. Шестой сольный стендап-концерт Галыма Калиакбарова",
+      "alternativeName": "Внук Сары. Шестой сольный стендап-концерт Галыма Калиакбарова",
+      "year": 2026,
+      "rating": {
+        "kp": 8.635,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/8b0b5428-1d7c-45e8-a7e7-9a46a54090d7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/8b0b5428-1d7c-45e8-a7e7-9a46a54090d7/300x450"
+      }
+    },
+    {
+      "id": 8723443,
+      "name": "Назар Аудар. Концерт № 5 «Жана багдарлама»",
+      "alternativeName": "Nazar Audar",
+      "year": 2025,
+      "rating": {
+        "kp": 8.064,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/35039ab1-fcf7-4e65-8aa1-ef9ecc692510/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/35039ab1-fcf7-4e65-8aa1-ef9ecc692510/300x450"
+      }
+    },
+    {
+      "id": 6458487,
+      "name": "Супер Лайк Шоу",
+      "alternativeName": "Супер Лайк Шоу",
+      "year": 2024,
+      "rating": {
+        "kp": 8.582,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/753636d2-1fdc-423d-8051-cc5360da1d15/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/753636d2-1fdc-423d-8051-cc5360da1d15/300x450"
+      }
+    },
+    {
+      "id": 6116253,
+      "name": "Супер Лайк Шоу",
+      "alternativeName": "Супер Лайк Шоу",
+      "year": 2023,
+      "rating": {
+        "kp": 8.383,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486362/21e1d4b6-3716-4770-a0ea-e3002381e0ca/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486362/21e1d4b6-3716-4770-a0ea-e3002381e0ca/300x450"
+      }
+    }
+  ],
+  "короткометражка": [
+    {
+      "id": 45319,
+      "name": "Жил-был пёс",
+      "alternativeName": "Жил-был пёс",
+      "year": 1982,
+      "rating": {
+        "kp": 9.196,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/300x450"
+      }
+    },
+    {
+      "id": 42326,
+      "name": "Трое из Простоквашино",
+      "alternativeName": "Трое из Простоквашино",
+      "year": 1978,
+      "rating": {
+        "kp": 8.799,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/32660c93-8722-4b77-afa5-8102ef103f9a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/32660c93-8722-4b77-afa5-8102ef103f9a/300x450"
+      }
+    },
+    {
+      "id": 45779,
+      "name": "Винни Пух",
+      "alternativeName": "Винни Пух",
+      "year": 1969,
+      "rating": {
+        "kp": 8.772,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c5b6c0c7-f300-4c3d-99f2-cd09801ff43f/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c5b6c0c7-f300-4c3d-99f2-cd09801ff43f/300x450"
+      }
+    },
+    {
+      "id": 5189169,
+      "name": "Маша и Медведь: 12 месяцев",
+      "alternativeName": "Маша и Медведь: 12 месяцев",
+      "year": 2022,
+      "rating": {
+        "kp": 8.485,
+        "imdb": 7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/0e229fd4-4ce8-4c1a-85ef-daeae1754445/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/0e229fd4-4ce8-4c1a-85ef-daeae1754445/300x450"
+      }
+    },
+    {
+      "id": 46223,
+      "name": "Бременские музыканты",
+      "alternativeName": "Бременские музыканты",
+      "year": 1969,
+      "rating": {
+        "kp": 8.331,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/d8cf9725-c27b-47de-9d65-67b5277c11ed/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/d8cf9725-c27b-47de-9d65-67b5277c11ed/300x450"
+      }
+    },
+    {
+      "id": 256551,
+      "name": "Каникулы в Простоквашино",
+      "alternativeName": "Каникулы в Простоквашино",
+      "year": 1980,
+      "rating": {
+        "kp": 8.791,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/23b79e0e-64d3-4b57-8638-d7d7ded55814/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/23b79e0e-64d3-4b57-8638-d7d7ded55814/300x450"
+      }
+    },
+    {
+      "id": 45781,
+      "name": "Винни Пух идет в гости",
+      "alternativeName": "Винни Пух идет в гости",
+      "year": 1971,
+      "rating": {
+        "kp": 8.827,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/e14c7cb7-2005-41b5-8db0-2175bb42a470/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/e14c7cb7-2005-41b5-8db0-2175bb42a470/300x450"
+      }
+    },
+    {
+      "id": 256566,
+      "name": "Зима в Простоквашино",
+      "alternativeName": "Зима в Простоквашино",
+      "year": 1984,
+      "rating": {
+        "kp": 8.831,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/35aa0a0f-be7c-4eb0-bcf1-97c23b3da0b0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/35aa0a0f-be7c-4eb0-bcf1-97c23b3da0b0/300x450"
+      }
+    },
+    {
+      "id": 5431615,
+      "name": "Чебурашка. Выходной",
+      "alternativeName": "Чебурашка. Выходной",
+      "year": 2023,
+      "rating": {
+        "kp": 8.159,
+        "imdb": 6.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/94263bef-b2ba-4125-8319-c791681887db/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/94263bef-b2ba-4125-8319-c791681887db/300x450"
+      }
+    },
+    {
+      "id": 251884,
+      "name": "Малыш и Карлсон",
+      "alternativeName": "Малыш и Карлсон",
+      "year": 1968,
+      "rating": {
+        "kp": 8.504,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/c59dfa18-488b-4ef8-8e65-4338e48e8957/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/c59dfa18-488b-4ef8-8e65-4338e48e8957/300x450"
+      }
+    }
+  ],
+  "криминал": [
+    {
+      "id": 1143242,
+      "name": "Джентльмены",
+      "alternativeName": "The Gentlemen",
+      "year": 2019,
+      "rating": {
+        "kp": 8.689,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/637271d5-61b4-4e46-ac83-6d07494c7645/300x450"
+      }
+    },
+    {
+      "id": 462682,
+      "name": "Волк с Уолл-стрит",
+      "alternativeName": "The Wolf of Wall Street",
+      "year": 2013,
+      "rating": {
+        "kp": 8.119,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/44bc954c-acdb-45d7-8ce1-6a9b25f4ca92/300x450"
+      }
+    },
+    {
+      "id": 41519,
+      "name": "Брат",
+      "alternativeName": "Брат",
+      "year": 1997,
+      "rating": {
+        "kp": 8.381,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e9008e2f-433f-43b0-b9b8-2ea8e3fb6c9b/300x450"
+      }
+    },
+    {
+      "id": 820638,
+      "name": "Мажор",
+      "alternativeName": "Мажор",
+      "year": 2014,
+      "rating": {
+        "kp": 8.115,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/aaef27dc-0109-4a19-bb1a-761e4503b6b8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/aaef27dc-0109-4a19-bb1a-761e4503b6b8/300x450"
+      }
+    },
+    {
+      "id": 1188529,
+      "name": "Достать ножи",
+      "alternativeName": "Knives Out",
+      "year": 2019,
+      "rating": {
+        "kp": 8.198,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/e8aa9797-2c24-45fd-a53e-34cf91a8c27c/300x450"
+      }
+    },
+    {
+      "id": 41520,
+      "name": "Брат 2",
+      "alternativeName": "Брат 2",
+      "year": 2000,
+      "rating": {
+        "kp": 8.31,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/80eab631-346c-4c29-b14d-1fa1438158f9/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/80eab631-346c-4c29-b14d-1fa1438158f9/300x450"
+      }
+    },
+    {
+      "id": 361,
+      "name": "Бойцовский клуб",
+      "alternativeName": "Fight Club",
+      "year": 1999,
+      "rating": {
+        "kp": 8.683,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/16490236/495fb59a-bff1-4626-baba-bb392fede945/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/16490236/495fb59a-bff1-4626-baba-bb392fede945/300x450"
+      }
+    },
+    {
+      "id": 42782,
+      "name": "Операция «Ы» и другие приключения Шурика",
+      "alternativeName": "Операция «Ы» и другие приключения Шурика",
+      "year": 1965,
+      "rating": {
+        "kp": 8.749,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ccd69a69-7405-4b41-89a8-60dd6dc2a3ee/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ccd69a69-7405-4b41-89a8-60dd6dc2a3ee/300x450"
+      }
+    },
+    {
+      "id": 838050,
+      "name": "Метод",
+      "alternativeName": "Метод",
+      "year": 2015,
+      "rating": {
+        "kp": 8.387,
+        "imdb": 7.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/573e8902-b3bc-44a7-881f-6eb0014fb694/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/573e8902-b3bc-44a7-881f-6eb0014fb694/300x450"
+      }
+    },
+    {
+      "id": 435,
+      "name": "Зеленая миля",
+      "alternativeName": "The Green Mile",
+      "year": 1999,
+      "rating": {
+        "kp": 9.08,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450"
+      }
+    }
+  ],
+  "мелодрама": [
+    {
+      "id": 464963,
+      "name": "Игра престолов",
+      "alternativeName": "Game of Thrones",
+      "year": 2011,
+      "rating": {
+        "kp": 9.008,
+        "imdb": 9.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450"
+      }
+    },
+    {
+      "id": 5916296,
+      "name": "Ландыши",
+      "alternativeName": "Ландыши",
+      "year": 2024,
+      "rating": {
+        "kp": 8.202,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cac5418a-e6d2-4fd3-8e59-0d79c1fc606c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cac5418a-e6d2-4fd3-8e59-0d79c1fc606c/300x450"
+      }
+    },
+    {
+      "id": 42782,
+      "name": "Операция «Ы» и другие приключения Шурика",
+      "alternativeName": "Операция «Ы» и другие приключения Шурика",
+      "year": 1965,
+      "rating": {
+        "kp": 8.749,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ccd69a69-7405-4b41-89a8-60dd6dc2a3ee/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ccd69a69-7405-4b41-89a8-60dd6dc2a3ee/300x450"
+      }
+    },
+    {
+      "id": 45146,
+      "name": "Любовь и голуби",
+      "alternativeName": "Любовь и голуби",
+      "year": 1984,
+      "rating": {
+        "kp": 8.295,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/ab221a46-3981-4f6b-97bb-823f2bae3eb8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10953618/ab221a46-3981-4f6b-97bb-823f2bae3eb8/300x450"
+      }
+    },
+    {
+      "id": 1392743,
+      "name": "Постучись в мою дверь",
+      "alternativeName": "Sen Çal Kapımı",
+      "year": 2020,
+      "rating": {
+        "kp": 8.023,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/389c3708-9557-44ea-9579-42b42e0570bd/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/389c3708-9557-44ea-9579-42b42e0570bd/300x450"
+      }
+    },
+    {
+      "id": 448,
+      "name": "Форрест Гамп",
+      "alternativeName": "Forrest Gump",
+      "year": 1994,
+      "rating": {
+        "kp": 8.92,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3560b757-9b95-45ec-af8c-623972370f9d/300x450"
+      }
+    },
+    {
+      "id": 430,
+      "name": "Шрэк",
+      "alternativeName": "Shrek",
+      "year": 2001,
+      "rating": {
+        "kp": 8.226,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/300x450"
+      }
+    },
+    {
+      "id": 44745,
+      "name": "Кавказская пленница, или Новые приключения Шурика",
+      "alternativeName": "Кавказская пленница, или Новые приключения Шурика",
+      "year": 1966,
+      "rating": {
+        "kp": 8.52,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/d681bcf8-0fc2-4f2e-a772-0a01920e62b3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/d681bcf8-0fc2-4f2e-a772-0a01920e62b3/300x450"
+      }
+    },
+    {
+      "id": 2213,
+      "name": "Титаник",
+      "alternativeName": "Titanic",
+      "year": 1997,
+      "rating": {
+        "kp": 8.389,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/7f0e6761-4635-46ad-b804-59d5cf1ae85c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/7f0e6761-4635-46ad-b804-59d5cf1ae85c/300x450"
+      }
+    },
+    {
+      "id": 46708,
+      "name": "Москва слезам не верит",
+      "alternativeName": "Москва слезам не верит",
+      "year": 1979,
+      "rating": {
+        "kp": 8.448,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486362/e4656bf5-8539-44ab-a749-93b8c9d54150/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486362/e4656bf5-8539-44ab-a749-93b8c9d54150/300x450"
+      }
+    }
+  ],
+  "музыка": [
+    {
+      "id": 5916296,
+      "name": "Ландыши",
+      "alternativeName": "Ландыши",
+      "year": 2024,
+      "rating": {
+        "kp": 8.202,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cac5418a-e6d2-4fd3-8e59-0d79c1fc606c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cac5418a-e6d2-4fd3-8e59-0d79c1fc606c/300x450"
+      }
+    },
+    {
+      "id": 679486,
+      "name": "Тайна Коко",
+      "alternativeName": "Coco",
+      "year": 2017,
+      "rating": {
+        "kp": 8.726,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e11a16e-c9e7-491f-9162-01098a7d8dd9/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e11a16e-c9e7-491f-9162-01098a7d8dd9/300x450"
+      }
+    },
+    {
+      "id": 775273,
+      "name": "Душа",
+      "alternativeName": "Soul",
+      "year": 2020,
+      "rating": {
+        "kp": 8.359,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ce2e470c-861c-4995-b6b1-54e1dd4932d4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/ce2e470c-861c-4995-b6b1-54e1dd4932d4/300x450"
+      }
+    },
+    {
+      "id": 725190,
+      "name": "Одержимость",
+      "alternativeName": "Whiplash",
+      "year": 2013,
+      "rating": {
+        "kp": 8.367,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/16af46be-bcfe-461e-af54-ff17b905b82e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/16af46be-bcfe-461e-af54-ff17b905b82e/300x450"
+      }
+    },
+    {
+      "id": 568289,
+      "name": "Богемская рапсодия",
+      "alternativeName": "Bohemian Rhapsody",
+      "year": 2018,
+      "rating": {
+        "kp": 8.028,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a8132729-68c2-4f03-9795-0d886db8ae38/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a8132729-68c2-4f03-9795-0d886db8ae38/300x450"
+      }
+    },
+    {
+      "id": 841081,
+      "name": "Ла-Ла Ленд",
+      "alternativeName": "La La Land",
+      "year": 2016,
+      "rating": {
+        "kp": 8.05,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/7e786437-eada-4d23-baea-f3a5ebf57e06/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/7e786437-eada-4d23-baea-f3a5ebf57e06/300x450"
+      }
+    },
+    {
+      "id": 355,
+      "name": "Пианист",
+      "alternativeName": "The Pianist",
+      "year": 2002,
+      "rating": {
+        "kp": 8.473,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6d71694e-3796-4e1c-96aa-0e982c2bc03d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6d71694e-3796-4e1c-96aa-0e982c2bc03d/300x450"
+      }
+    },
+    {
+      "id": 1115685,
+      "name": "Фиксики против кработов",
+      "alternativeName": "Фиксики против кработов",
+      "year": 2019,
+      "rating": {
+        "kp": 8.1,
+        "imdb": 5.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/f9e6f221-1774-4ac7-ae62-ef61926e7946/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/f9e6f221-1774-4ac7-ae62-ef61926e7946/300x450"
+      }
+    },
+    {
+      "id": 356,
+      "name": "В джазе только девушки",
+      "alternativeName": "Some Like It Hot",
+      "year": 1959,
+      "rating": {
+        "kp": 8.45,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/f9d40e34-f5b2-49ca-9fe0-bbdd3e43da3a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/f9d40e34-f5b2-49ca-9fe0-bbdd3e43da3a/300x450"
+      }
+    },
+    {
+      "id": 1049439,
+      "name": "Хор",
+      "alternativeName": "Хор",
+      "year": 2019,
+      "rating": {
+        "kp": 8.611,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/c00740ed-9c26-44e7-a73f-60c1db29f8f1/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/c00740ed-9c26-44e7-a73f-60c1db29f8f1/300x450"
+      }
+    }
+  ],
+  "мультфильм": [
+    {
+      "id": 46483,
+      "name": "Ну, погоди!",
+      "alternativeName": "Ну, погоди!",
+      "year": 1969,
+      "rating": {
+        "kp": 8.726,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a68f7c1a-fb83-4533-a4e2-f60485f2f440/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a68f7c1a-fb83-4533-a4e2-f60485f2f440/300x450"
+      }
+    },
+    {
+      "id": 685246,
+      "name": "Рик и Морти",
+      "alternativeName": "Rick and Morty",
+      "year": 2013,
+      "rating": {
+        "kp": 8.841,
+        "imdb": 9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/29741578-1673-4ce6-8502-8a191e4886f7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/29741578-1673-4ce6-8502-8a191e4886f7/300x450"
+      }
+    },
+    {
+      "id": 775276,
+      "name": "Зверополис",
+      "alternativeName": "Zootopia",
+      "year": 2016,
+      "rating": {
+        "kp": 8.318,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/300x450"
+      }
+    },
+    {
+      "id": 749374,
+      "name": "Атака титанов",
+      "alternativeName": "Shingeki no kyojin",
+      "year": 2013,
+      "rating": {
+        "kp": 8.731,
+        "imdb": 9.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/300x450"
+      }
+    },
+    {
+      "id": 430,
+      "name": "Шрэк",
+      "alternativeName": "Shrek",
+      "year": 2001,
+      "rating": {
+        "kp": 8.226,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/300x450"
+      }
+    },
+    {
+      "id": 935898,
+      "name": "Три кота",
+      "alternativeName": "Три кота",
+      "year": 2015,
+      "rating": {
+        "kp": 8.352,
+        "imdb": 6.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/515b1d6a-46e3-48fb-9412-53e7f60439ca/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/515b1d6a-46e3-48fb-9412-53e7f60439ca/300x450"
+      }
+    },
+    {
+      "id": 45319,
+      "name": "Жил-был пёс",
+      "alternativeName": "Жил-был пёс",
+      "year": 1982,
+      "rating": {
+        "kp": 9.196,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/300x450"
+      }
+    },
+    {
+      "id": 89514,
+      "name": "Рататуй",
+      "alternativeName": "Ratatouille",
+      "year": 2007,
+      "rating": {
+        "kp": 8.052,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/894f7e3c-cedf-4e5c-946a-9021efdf17dd/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/894f7e3c-cedf-4e5c-946a-9021efdf17dd/300x450"
+      }
+    },
+    {
+      "id": 679486,
+      "name": "Тайна Коко",
+      "alternativeName": "Coco",
+      "year": 2017,
+      "rating": {
+        "kp": 8.726,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e11a16e-c9e7-491f-9162-01098a7d8dd9/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e11a16e-c9e7-491f-9162-01098a7d8dd9/300x450"
+      }
+    },
+    {
+      "id": 591929,
+      "name": "Гравити Фолз",
+      "alternativeName": "Gravity Falls",
+      "year": 2012,
+      "rating": {
+        "kp": 8.946,
+        "imdb": 8.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/04954219-061a-4646-a7d6-054fdc34b053/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/04954219-061a-4646-a7d6-054fdc34b053/300x450"
+      }
+    }
+  ],
+  "мюзикл": [
+    {
+      "id": 44745,
+      "name": "Кавказская пленница, или Новые приключения Шурика",
+      "alternativeName": "Кавказская пленница, или Новые приключения Шурика",
+      "year": 1966,
+      "rating": {
+        "kp": 8.52,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/d681bcf8-0fc2-4f2e-a772-0a01920e62b3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/d681bcf8-0fc2-4f2e-a772-0a01920e62b3/300x450"
+      }
+    },
+    {
+      "id": 2360,
+      "name": "Король Лев",
+      "alternativeName": "The Lion King",
+      "year": 1994,
+      "rating": {
+        "kp": 8.775,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/60aa1abc-b754-4817-ad9c-0bcda427a12b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/60aa1abc-b754-4817-ad9c-0bcda427a12b/300x450"
+      }
+    },
+    {
+      "id": 81041,
+      "name": "Алеша Попович и Тугарин Змей",
+      "alternativeName": "Алеша Попович и Тугарин Змей",
+      "year": 2004,
+      "rating": {
+        "kp": 8.019,
+        "imdb": 7.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/3255501c-db04-465f-85f4-113f887cfad8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/3255501c-db04-465f-85f4-113f887cfad8/300x450"
+      }
+    },
+    {
+      "id": 5275429,
+      "name": "Лёд 3",
+      "alternativeName": "Лёд 3",
+      "year": 2024,
+      "rating": {
+        "kp": 8.2,
+        "imdb": 5.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10671298/5d4e5068-4902-4dd3-a318-c13272de7134/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10671298/5d4e5068-4902-4dd3-a318-c13272de7134/300x450"
+      }
+    },
+    {
+      "id": 841081,
+      "name": "Ла-Ла Ленд",
+      "alternativeName": "La La Land",
+      "year": 2016,
+      "rating": {
+        "kp": 8.05,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/7e786437-eada-4d23-baea-f3a5ebf57e06/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/7e786437-eada-4d23-baea-f3a5ebf57e06/300x450"
+      }
+    },
+    {
+      "id": 46223,
+      "name": "Бременские музыканты",
+      "alternativeName": "Бременские музыканты",
+      "year": 1969,
+      "rating": {
+        "kp": 8.331,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/d8cf9725-c27b-47de-9d65-67b5277c11ed/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/d8cf9725-c27b-47de-9d65-67b5277c11ed/300x450"
+      }
+    },
+    {
+      "id": 540,
+      "name": "Красавица и чудовище",
+      "alternativeName": "Beauty and the Beast",
+      "year": 1991,
+      "rating": {
+        "kp": 8.269,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/ed078f6d-65a8-4c2c-a8df-aba6383b841f/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/ed078f6d-65a8-4c2c-a8df-aba6383b841f/300x450"
+      }
+    },
+    {
+      "id": 2361,
+      "name": "Аладдин",
+      "alternativeName": "Aladdin",
+      "year": 1992,
+      "rating": {
+        "kp": 8.167,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/60add1e1-d3ae-4e5c-af67-4fdabadb40ac/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/60add1e1-d3ae-4e5c-af67-4fdabadb40ac/300x450"
+      }
+    },
+    {
+      "id": 45086,
+      "name": "Летучий корабль",
+      "alternativeName": "Летучий корабль",
+      "year": 1979,
+      "rating": {
+        "kp": 8.509,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/f612db44-21d3-41df-8b78-a35d8edfd84c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/f612db44-21d3-41df-8b78-a35d8edfd84c/300x450"
+      }
+    },
+    {
+      "id": 1009142,
+      "name": "Зверопой 2",
+      "alternativeName": "Sing 2",
+      "year": 2021,
+      "rating": {
+        "kp": 8.27,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/86bed0ee-6c1f-4a1d-85dd-1da7f194f97a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/86bed0ee-6c1f-4a1d-85dd-1da7f194f97a/300x450"
+      }
+    }
+  ],
+  "новости": [
+    {
+      "id": 460589,
+      "name": "Прожекторперисхилтон",
+      "alternativeName": "Прожекторперисхилтон",
+      "year": 2008,
+      "rating": {
+        "kp": 8.056,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/26b23823-4598-498b-9dd4-503c015c8329/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/26b23823-4598-498b-9dd4-503c015c8329/300x450"
+      }
+    },
+    {
+      "id": 502270,
+      "name": "Гонка на вымирание",
+      "alternativeName": "Racing Extinction",
+      "year": 2015,
+      "rating": {
+        "kp": 8.218,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ef63708-2462-463f-8625-9d9ab5b4b595/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ef63708-2462-463f-8625-9d9ab5b4b595/300x450"
+      }
+    },
+    {
+      "id": 885610,
+      "name": "Скотозаговор",
+      "alternativeName": "Cowspiracy: The Sustainability Secret",
+      "year": 2014,
+      "rating": {
+        "kp": 8.402,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/7c46e90c-f098-4bc6-b2fc-efc2f3422766/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/7c46e90c-f098-4bc6-b2fc-efc2f3422766/300x450"
+      }
+    },
+    {
+      "id": 568028,
+      "name": "Полкино",
+      "alternativeName": "Полкино",
+      "year": 2010,
+      "rating": {
+        "kp": 8.146,
+        "imdb": 7.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3a283dfa-69c1-40a6-a808-7a644d8c68e5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/3a283dfa-69c1-40a6-a808-7a644d8c68e5/300x450"
+      }
+    },
+    {
+      "id": 575583,
+      "name": "Культура употребления",
+      "alternativeName": "The Culture High",
+      "year": 2014,
+      "rating": {
+        "kp": 8.145,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/6434482f-51b6-4e17-a46a-36e1879a4a6c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/6434482f-51b6-4e17-a46a-36e1879a4a6c/300x450"
+      }
+    },
+    {
+      "id": 4414535,
+      "name": "Сегодняшний номер...",
+      "alternativeName": "Today's Number Is...",
+      "year": 2020,
+      "rating": {
+        "kp": 8.727,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/87dcb224-9510-4dd5-b80b-5944f4b96240/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/87dcb224-9510-4dd5-b80b-5944f4b96240/300x450"
+      }
+    }
+  ],
+  "приключения": [
+    {
+      "id": 464963,
+      "name": "Игра престолов",
+      "alternativeName": "Game of Thrones",
+      "year": 2011,
+      "rating": {
+        "kp": 9.008,
+        "imdb": 9.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450"
+      }
+    },
+    {
+      "id": 42664,
+      "name": "Иван Васильевич меняет профессию",
+      "alternativeName": "Иван Васильевич меняет профессию",
+      "year": 1973,
+      "rating": {
+        "kp": 8.794,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/a7ef44b8-1983-4992-a889-da6f87a3f559/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/a7ef44b8-1983-4992-a889-da6f87a3f559/300x450"
+      }
+    },
+    {
+      "id": 251733,
+      "name": "Аватар",
+      "alternativeName": "Avatar",
+      "year": 2009,
+      "rating": {
+        "kp": 8.008,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/300x450"
+      }
+    },
+    {
+      "id": 689,
+      "name": "Гарри Поттер и философский камень",
+      "alternativeName": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "rating": {
+        "kp": 8.317,
+        "imdb": 7.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/300x450"
+      }
+    },
+    {
+      "id": 46483,
+      "name": "Ну, погоди!",
+      "alternativeName": "Ну, погоди!",
+      "year": 1969,
+      "rating": {
+        "kp": 8.726,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a68f7c1a-fb83-4533-a4e2-f60485f2f440/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a68f7c1a-fb83-4533-a4e2-f60485f2f440/300x450"
+      }
+    },
+    {
+      "id": 258687,
+      "name": "Интерстеллар",
+      "alternativeName": "Interstellar",
+      "year": 2014,
+      "rating": {
+        "kp": 8.685,
+        "imdb": 8.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/300x450"
+      }
+    },
+    {
+      "id": 685246,
+      "name": "Рик и Морти",
+      "alternativeName": "Rick and Morty",
+      "year": 2013,
+      "rating": {
+        "kp": 8.841,
+        "imdb": 9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/29741578-1673-4ce6-8502-8a191e4886f7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/29741578-1673-4ce6-8502-8a191e4886f7/300x450"
+      }
+    },
+    {
+      "id": 775276,
+      "name": "Зверополис",
+      "alternativeName": "Zootopia",
+      "year": 2016,
+      "rating": {
+        "kp": 8.318,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/300x450"
+      }
+    },
+    {
+      "id": 4374,
+      "name": "Пираты Карибского моря: Проклятие Черной жемчужины",
+      "alternativeName": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "rating": {
+        "kp": 8.392,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/d7e3dbd6-e4a9-4485-b751-d02f49825166/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/d7e3dbd6-e4a9-4485-b751-d02f49825166/300x450"
+      }
+    },
+    {
+      "id": 430,
+      "name": "Шрэк",
+      "alternativeName": "Shrek",
+      "year": 2001,
+      "rating": {
+        "kp": 8.226,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/300x450"
+      }
+    }
+  ],
+  "реальное ТВ": [
+    {
+      "id": 5582628,
+      "name": "Титаны",
+      "alternativeName": "Титаны",
+      "year": 2024,
+      "rating": {
+        "kp": 8.786,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/2b928358-72ed-44d3-801e-ed455b4dded8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/2b928358-72ed-44d3-801e-ed455b4dded8/300x450"
+      }
+    },
+    {
+      "id": 762373,
+      "name": "Орёл и решка",
+      "alternativeName": "Орёл и решка",
+      "year": 2011,
+      "rating": {
+        "kp": 8.269,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/bbe6ee9d-412d-4147-86d6-19cbc3d7be12/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/bbe6ee9d-412d-4147-86d6-19cbc3d7be12/300x450"
+      }
+    },
+    {
+      "id": 5461786,
+      "name": "Самые опасные существа",
+      "alternativeName": "Nature’s Most Dangerous",
+      "year": 2021,
+      "rating": {
+        "kp": 8.404,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/f882bd82-949a-435e-b3f6-feef50c98d98/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10835644/f882bd82-949a-435e-b3f6-feef50c98d98/300x450"
+      }
+    },
+    {
+      "id": 5194229,
+      "name": "Маска",
+      "alternativeName": "Маска",
+      "year": 2020,
+      "rating": {
+        "kp": 8.082,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/c6ffce5d-47b4-402d-94bf-a7fdb3786962/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10812607/c6ffce5d-47b4-402d-94bf-a7fdb3786962/300x450"
+      }
+    },
+    {
+      "id": 7429055,
+      "name": "Мастер игры",
+      "alternativeName": "Мастер игры",
+      "year": 2025,
+      "rating": {
+        "kp": 8.119,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/5b89036f-c825-4d71-a49f-aa4685933a32/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/5b89036f-c825-4d71-a49f-aa4685933a32/300x450"
+      }
+    },
+    {
+      "id": 5461779,
+      "name": "Самые милые существа",
+      "alternativeName": "Nature’s Cutest",
+      "year": 2021,
+      "rating": {
+        "kp": 8.835,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/c4cab1cd-a5b5-45b3-ad8e-dd12c1ba80a5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/c4cab1cd-a5b5-45b3-ad8e-dd12c1ba80a5/300x450"
+      }
+    },
+    {
+      "id": 668250,
+      "name": "The Ultimate Fighter",
+      "alternativeName": "The Ultimate Fighter",
+      "year": 2005,
+      "rating": {
+        "kp": 8.147,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/38446492-9426-4f4b-8320-f18b5ae9db6d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/38446492-9426-4f4b-8320-f18b5ae9db6d/300x450"
+      }
+    },
+    {
+      "id": 5265004,
+      "name": "Большой побег",
+      "alternativeName": "Большой побег",
+      "year": 2023,
+      "rating": {
+        "kp": 8.86,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/d37ac2e6-2928-44b3-9756-074e7ae70403/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/d37ac2e6-2928-44b3-9756-074e7ae70403/300x450"
+      }
+    },
+    {
+      "id": 1281917,
+      "name": "Форт Боярд",
+      "alternativeName": "Форт Боярд",
+      "year": 2019,
+      "rating": {
+        "kp": 8.299,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/d7019e35-9903-46c5-856b-842a1282be3b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/d7019e35-9903-46c5-856b-842a1282be3b/300x450"
+      }
+    },
+    {
+      "id": 10187029,
+      "name": "Суперстар! Битва сезонов",
+      "alternativeName": "Суперстар! Битва сезонов",
+      "year": 2020,
+      "rating": {
+        "kp": 8.698,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/ff3e6264-3469-464a-8140-98f279c4cf7e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/ff3e6264-3469-464a-8140-98f279c4cf7e/300x450"
+      }
+    }
+  ],
+  "семейный": [
+    {
+      "id": 8124,
+      "name": "Один дома",
+      "alternativeName": "Home Alone",
+      "year": 1990,
+      "rating": {
+        "kp": 8.281,
+        "imdb": 7.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/022a58e3-5b9b-411b-bfb3-09fedb700401/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/022a58e3-5b9b-411b-bfb3-09fedb700401/300x450"
+      }
+    },
+    {
+      "id": 689,
+      "name": "Гарри Поттер и философский камень",
+      "alternativeName": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "rating": {
+        "kp": 8.317,
+        "imdb": 7.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/300x450"
+      }
+    },
+    {
+      "id": 775276,
+      "name": "Зверополис",
+      "alternativeName": "Zootopia",
+      "year": 2016,
+      "rating": {
+        "kp": 8.318,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/893bba73-3105-4944-8d18-a38f929f2759/300x450"
+      }
+    },
+    {
+      "id": 430,
+      "name": "Шрэк",
+      "alternativeName": "Shrek",
+      "year": 2001,
+      "rating": {
+        "kp": 8.226,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/300x450"
+      }
+    },
+    {
+      "id": 45319,
+      "name": "Жил-был пёс",
+      "alternativeName": "Жил-был пёс",
+      "year": 1982,
+      "rating": {
+        "kp": 9.196,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/03c5124a-e59a-474b-8dc9-6227db156566/300x450"
+      }
+    },
+    {
+      "id": 89514,
+      "name": "Рататуй",
+      "alternativeName": "Ratatouille",
+      "year": 2007,
+      "rating": {
+        "kp": 8.052,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/894f7e3c-cedf-4e5c-946a-9021efdf17dd/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/894f7e3c-cedf-4e5c-946a-9021efdf17dd/300x450"
+      }
+    },
+    {
+      "id": 679486,
+      "name": "Тайна Коко",
+      "alternativeName": "Coco",
+      "year": 2017,
+      "rating": {
+        "kp": 8.726,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e11a16e-c9e7-491f-9162-01098a7d8dd9/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/6e11a16e-c9e7-491f-9162-01098a7d8dd9/300x450"
+      }
+    },
+    {
+      "id": 591929,
+      "name": "Гравити Фолз",
+      "alternativeName": "Gravity Falls",
+      "year": 2012,
+      "rating": {
+        "kp": 8.946,
+        "imdb": 8.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/04954219-061a-4646-a7d6-054fdc34b053/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/04954219-061a-4646-a7d6-054fdc34b053/300x450"
+      }
+    },
+    {
+      "id": 958607,
+      "name": "Леди Баг и Супер-Кот",
+      "alternativeName": "Miraculous: Tales of Ladybug & Cat Noir",
+      "year": 2015,
+      "rating": {
+        "kp": 8.289,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/9980853d-bebd-4257-85b7-792d1020ce3a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/9980853d-bebd-4257-85b7-792d1020ce3a/300x450"
+      }
+    },
+    {
+      "id": 387556,
+      "name": "Хатико: Самый верный друг",
+      "alternativeName": "Hachi: A Dog's Tale",
+      "year": 2008,
+      "rating": {
+        "kp": 8.388,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/82f8a2dc-a439-4832-9f0f-dc599e6e78d2/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/82f8a2dc-a439-4832-9f0f-dc599e6e78d2/300x450"
+      }
+    }
+  ],
+  "спорт": [
+    {
+      "id": 1311936,
+      "name": "Трудные подростки",
+      "alternativeName": "Трудные подростки",
+      "year": 2019,
+      "rating": {
+        "kp": 8.169,
+        "imdb": 6.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/7b25d60a-3221-42de-9f49-fb77439a13f6/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/7b25d60a-3221-42de-9f49-fb77439a13f6/300x450"
+      }
+    },
+    {
+      "id": 601564,
+      "name": "Легенда №17",
+      "alternativeName": "Легенда №17",
+      "year": 2012,
+      "rating": {
+        "kp": 8.063,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a8fce9c6-ed42-42e8-9727-206a6b5fb64a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a8fce9c6-ed42-42e8-9727-206a6b5fb64a/300x450"
+      }
+    },
+    {
+      "id": 5437548,
+      "name": "Молодёжка. Новая смена",
+      "alternativeName": "Молодёжка. Новая смена",
+      "year": 2024,
+      "rating": {
+        "kp": 8.848,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/478ff41a-bce8-41b7-80b2-cd7b712b6c27/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/478ff41a-bce8-41b7-80b2-cd7b712b6c27/300x450"
+      }
+    },
+    {
+      "id": 835086,
+      "name": "Ford против Ferrari",
+      "alternativeName": "Ford v Ferrari",
+      "year": 2019,
+      "rating": {
+        "kp": 8.232,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/211e880d-c183-43aa-83b0-13c08109eaf7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/211e880d-c183-43aa-83b0-13c08109eaf7/300x450"
+      }
+    },
+    {
+      "id": 803422,
+      "name": "Пеле: Рождение легенды",
+      "alternativeName": "Pelé: Birth of a Legend",
+      "year": 2015,
+      "rating": {
+        "kp": 8.5,
+        "imdb": 7.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/fa81d84c-9c37-4404-87bf-5d14efe188a5/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/fa81d84c-9c37-4404-87bf-5d14efe188a5/300x450"
+      }
+    },
+    {
+      "id": 5275429,
+      "name": "Лёд 3",
+      "alternativeName": "Лёд 3",
+      "year": 2024,
+      "rating": {
+        "kp": 8.2,
+        "imdb": 5.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10671298/5d4e5068-4902-4dd3-a318-c13272de7134/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10671298/5d4e5068-4902-4dd3-a318-c13272de7134/300x450"
+      }
+    },
+    {
+      "id": 1402937,
+      "name": "Артур, ты король",
+      "alternativeName": "Arthur the King",
+      "year": 2024,
+      "rating": {
+        "kp": 8.281,
+        "imdb": 7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/02f5c9fa-8ed2-455b-9861-1a01252d73f4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/02f5c9fa-8ed2-455b-9861-1a01252d73f4/300x450"
+      }
+    },
+    {
+      "id": 596125,
+      "name": "Гонка",
+      "alternativeName": "Rush",
+      "year": 2013,
+      "rating": {
+        "kp": 8.141,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/2bf5ff35-e2d6-4e3e-8b02-c42526187d4f/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/2bf5ff35-e2d6-4e3e-8b02-c42526187d4f/300x450"
+      }
+    },
+    {
+      "id": 81297,
+      "name": "Малышка на миллион",
+      "alternativeName": "Million Dollar Baby",
+      "year": 2004,
+      "rating": {
+        "kp": 8.172,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/4c6a018e-1cee-4f83-bd17-25f0dc99f28e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/4c6a018e-1cee-4f83-bd17-25f0dc99f28e/300x450"
+      }
+    },
+    {
+      "id": 4624770,
+      "name": "Синяя тюрьма: Блю Лок",
+      "alternativeName": "Blue Lock",
+      "year": 2022,
+      "rating": {
+        "kp": 8.565,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/93b1526c-9727-4454-8a82-f7de58822395/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/93b1526c-9727-4454-8a82-f7de58822395/300x450"
+      }
+    }
+  ],
+  "ток-шоу": [
+    {
+      "id": 5267860,
+      "name": "Импровизаторы",
+      "alternativeName": "Импровизаторы",
+      "year": 2023,
+      "rating": {
+        "kp": 8.524,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/ab86e0c0-4888-4735-b965-216f9e71f86a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4486454/ab86e0c0-4888-4735-b965-216f9e71f86a/300x450"
+      }
+    },
+    {
+      "id": 1047767,
+      "name": "Импровизация",
+      "alternativeName": "Импровизация",
+      "year": 2016,
+      "rating": {
+        "kp": 8.276,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/50d95245-1dea-443d-87a9-ceae43fb5ec1/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/50d95245-1dea-443d-87a9-ceae43fb5ec1/300x450"
+      }
+    },
+    {
+      "id": 460589,
+      "name": "Прожекторперисхилтон",
+      "alternativeName": "Прожекторперисхилтон",
+      "year": 2008,
+      "rating": {
+        "kp": 8.056,
+        "imdb": 7.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/26b23823-4598-498b-9dd4-503c015c8329/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/26b23823-4598-498b-9dd4-503c015c8329/300x450"
+      }
+    },
+    {
+      "id": 566602,
+      "name": "Топ Гир",
+      "alternativeName": "Top Gear",
+      "year": 2002,
+      "rating": {
+        "kp": 8.615,
+        "imdb": 8.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/30c8c057-deaf-4e91-b5ef-9353c11c1d4d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/30c8c057-deaf-4e91-b5ef-9353c11c1d4d/300x450"
+      }
+    },
+    {
+      "id": 4671880,
+      "name": "Вечер с Адель",
+      "alternativeName": "Adele: One Night Only",
+      "year": 2021,
+      "rating": {
+        "kp": 8.593,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/71bd2e57-59c3-41fb-a378-8c8e8ed85cc4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/71bd2e57-59c3-41fb-a378-8c8e8ed85cc4/300x450"
+      }
+    },
+    {
+      "id": 982730,
+      "name": "Гранд тур",
+      "alternativeName": "The Grand Tour",
+      "year": 2016,
+      "rating": {
+        "kp": 8.887,
+        "imdb": 8.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c0645da0-79d1-47c9-8bbe-be5b35ddc421/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c0645da0-79d1-47c9-8bbe-be5b35ddc421/300x450"
+      }
+    },
+    {
+      "id": 452809,
+      "name": "Топ Гир",
+      "alternativeName": "Top Gear",
+      "year": 1978,
+      "rating": {
+        "kp": 8.68,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/954d9126-e93a-4c64-88d0-7a46a01d5c69/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/954d9126-e93a-4c64-88d0-7a46a01d5c69/300x450"
+      }
+    },
+    {
+      "id": 1387178,
+      "name": "LAB с Антоном Беляевым",
+      "alternativeName": "LAB с Антоном Беляевым",
+      "year": 2020,
+      "rating": {
+        "kp": 8.662,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/2281d167-e0b0-4937-8590-73278dfb2c1c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/2281d167-e0b0-4937-8590-73278dfb2c1c/300x450"
+      }
+    },
+    {
+      "id": 1227897,
+      "name": "Топ Гир: Лучшее",
+      "alternativeName": "Top Gear: Best of",
+      "year": 2006,
+      "rating": {
+        "kp": 8.923,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a79fa196-02d7-4fc9-8f80-630e27141a3b/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/a79fa196-02d7-4fc9-8f80-630e27141a3b/300x450"
+      }
+    },
+    {
+      "id": 5508764,
+      "name": "ХОРОШОУ",
+      "alternativeName": "ХОРОШОУ",
+      "year": 2023,
+      "rating": {
+        "kp": 8.563,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cff707c5-64d3-4461-9693-27e8effef3f0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/9784475/cff707c5-64d3-4461-9693-27e8effef3f0/300x450"
+      }
+    }
+  ],
+  "триллер": [
+    {
+      "id": 6605654,
+      "name": "Камбэк",
+      "alternativeName": "Камбэк",
+      "year": 2025,
+      "rating": {
+        "kp": 8.079,
+        "imdb": 6.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/39a9d0fb-844a-4faa-9eb0-9cc162189f38/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10893610/39a9d0fb-844a-4faa-9eb0-9cc162189f38/300x450"
+      }
+    },
+    {
+      "id": 397667,
+      "name": "Остров проклятых",
+      "alternativeName": "Shutter Island",
+      "year": 2009,
+      "rating": {
+        "kp": 8.567,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/617303b7-cfa7-4273-bd1d-63974bf68927/300x450"
+      }
+    },
+    {
+      "id": 361,
+      "name": "Бойцовский клуб",
+      "alternativeName": "Fight Club",
+      "year": 1999,
+      "rating": {
+        "kp": 8.683,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/16490236/495fb59a-bff1-4626-baba-bb392fede945/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/16490236/495fb59a-bff1-4626-baba-bb392fede945/300x450"
+      }
+    },
+    {
+      "id": 838050,
+      "name": "Метод",
+      "alternativeName": "Метод",
+      "year": 2015,
+      "rating": {
+        "kp": 8.387,
+        "imdb": 7.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/573e8902-b3bc-44a7-881f-6eb0014fb694/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/573e8902-b3bc-44a7-881f-6eb0014fb694/300x450"
+      }
+    },
+    {
+      "id": 447301,
+      "name": "Начало",
+      "alternativeName": "Inception",
+      "year": 2010,
+      "rating": {
+        "kp": 8.672,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450"
+      }
+    },
+    {
+      "id": 462606,
+      "name": "Области тьмы",
+      "alternativeName": "Limitless",
+      "year": 2011,
+      "rating": {
+        "kp": 8.036,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/d3bfd32d-41b4-48ad-9584-b3fc1f5669d4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/d3bfd32d-41b4-48ad-9584-b3fc1f5669d4/300x450"
+      }
+    },
+    {
+      "id": 406408,
+      "name": "Законопослушный гражданин",
+      "alternativeName": "Law Abiding Citizen",
+      "year": 2009,
+      "rating": {
+        "kp": 8.065,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e3a342a0-6e45-4771-aa76-7d70c2cc26f4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/e3a342a0-6e45-4771-aa76-7d70c2cc26f4/300x450"
+      }
+    },
+    {
+      "id": 2213,
+      "name": "Титаник",
+      "alternativeName": "Titanic",
+      "year": 1997,
+      "rating": {
+        "kp": 8.389,
+        "imdb": 8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/7f0e6761-4635-46ad-b804-59d5cf1ae85c/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/7f0e6761-4635-46ad-b804-59d5cf1ae85c/300x450"
+      }
+    },
+    {
+      "id": 389,
+      "name": "Леон",
+      "alternativeName": "Léon",
+      "year": 1994,
+      "rating": {
+        "kp": 8.669,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/8662d92a-5881-4600-a7ae-549e6fd53b03/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/8662d92a-5881-4600-a7ae-549e6fd53b03/300x450"
+      }
+    },
+    {
+      "id": 5452393,
+      "name": "Граф Монте-Кристо",
+      "alternativeName": "Le Comte de Monte-Cristo",
+      "year": 2024,
+      "rating": {
+        "kp": 8.119,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/54490542-cc6e-4019-bb35-79aa67195fbe/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/54490542-cc6e-4019-bb35-79aa67195fbe/300x450"
+      }
+    }
+  ],
+  "ужасы": [
+    {
+      "id": 915196,
+      "name": "Очень странные дела",
+      "alternativeName": "Stranger Things",
+      "year": 2016,
+      "rating": {
+        "kp": 8.339,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/300x450"
+      }
+    },
+    {
+      "id": 178707,
+      "name": "Сверхъестественное",
+      "alternativeName": "Supernatural",
+      "year": 2005,
+      "rating": {
+        "kp": 8.234,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/c2c45ca9-0270-4bb2-bb82-5de3f01effbc/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4303601/c2c45ca9-0270-4bb2-bb82-5de3f01effbc/300x450"
+      }
+    },
+    {
+      "id": 508161,
+      "name": "Ходячие мертвецы",
+      "alternativeName": "The Walking Dead",
+      "year": 2010,
+      "rating": {
+        "kp": 8.034,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/c07a81ca-b555-45c5-a9b2-e3d3ac3be125/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10768063/c07a81ca-b555-45c5-a9b2-e3d3ac3be125/300x450"
+      }
+    },
+    {
+      "id": 345,
+      "name": "Молчание ягнят",
+      "alternativeName": "The Silence of the Lambs",
+      "year": 1990,
+      "rating": {
+        "kp": 8.332,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/9c655ce1-2b59-4941-97aa-f9e928ed0ff4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/9c655ce1-2b59-4941-97aa-f9e928ed0ff4/300x450"
+      }
+    },
+    {
+      "id": 655800,
+      "name": "Чёрное зеркало",
+      "alternativeName": "Black Mirror",
+      "year": 2011,
+      "rating": {
+        "kp": 8.457,
+        "imdb": 8.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/36737195-6026-4310-be80-5545d7d22447/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/36737195-6026-4310-be80-5545d7d22447/300x450"
+      }
+    },
+    {
+      "id": 386,
+      "name": "Чужой",
+      "alternativeName": "Alien",
+      "year": 1979,
+      "rating": {
+        "kp": 8.078,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/14af6019-b2fe-4e1e-bee5-334d9e472d94/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/14af6019-b2fe-4e1e-bee5-334d9e472d94/300x450"
+      }
+    },
+    {
+      "id": 682468,
+      "name": "Ганнибал",
+      "alternativeName": "Hannibal",
+      "year": 2013,
+      "rating": {
+        "kp": 8.072,
+        "imdb": 8.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/b27acae7-865c-4487-9029-660e3f085702/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/b27acae7-865c-4487-9029-660e3f085702/300x450"
+      }
+    },
+    {
+      "id": 2040161,
+      "name": "Человек-бензопила",
+      "alternativeName": "Chainsaw Man",
+      "year": 2022,
+      "rating": {
+        "kp": 8.461,
+        "imdb": 8.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/12eb3d81-f5c7-4047-aa49-140eb679eac2/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/12eb3d81-f5c7-4047-aa49-140eb679eac2/300x450"
+      }
+    },
+    {
+      "id": 1228254,
+      "name": "Любовь. Смерть. Роботы",
+      "alternativeName": "Love, Death & Robots",
+      "year": 2019,
+      "rating": {
+        "kp": 8.224,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/d35be217-1183-4036-81d9-d66bd1f1065a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4716873/d35be217-1183-4036-81d9-d66bd1f1065a/300x450"
+      }
+    },
+    {
+      "id": 4402867,
+      "name": "Счастье",
+      "alternativeName": "Haepiniseu",
+      "year": 2021,
+      "rating": {
+        "kp": 8.207,
+        "imdb": 7.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/9898b051-a211-47ce-846d-728ca83c1c00/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4774061/9898b051-a211-47ce-846d-728ca83c1c00/300x450"
+      }
+    }
+  ],
+  "фантастика": [
+    {
+      "id": 42664,
+      "name": "Иван Васильевич меняет профессию",
+      "alternativeName": "Иван Васильевич меняет профессию",
+      "year": 1973,
+      "rating": {
+        "kp": 8.794,
+        "imdb": 8.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/a7ef44b8-1983-4992-a889-da6f87a3f559/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/a7ef44b8-1983-4992-a889-da6f87a3f559/300x450"
+      }
+    },
+    {
+      "id": 251733,
+      "name": "Аватар",
+      "alternativeName": "Avatar",
+      "year": 2009,
+      "rating": {
+        "kp": 8.008,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4adf61aa-3cb7-4381-9245-523971e5b4c8/300x450"
+      }
+    },
+    {
+      "id": 258687,
+      "name": "Интерстеллар",
+      "alternativeName": "Interstellar",
+      "year": 2014,
+      "rating": {
+        "kp": 8.685,
+        "imdb": 8.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1600647/430042eb-ee69-4818-aed0-a312400a26bf/300x450"
+      }
+    },
+    {
+      "id": 685246,
+      "name": "Рик и Морти",
+      "alternativeName": "Rick and Morty",
+      "year": 2013,
+      "rating": {
+        "kp": 8.841,
+        "imdb": 9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/29741578-1673-4ce6-8502-8a191e4886f7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10809116/29741578-1673-4ce6-8502-8a191e4886f7/300x450"
+      }
+    },
+    {
+      "id": 447301,
+      "name": "Начало",
+      "alternativeName": "Inception",
+      "year": 2010,
+      "rating": {
+        "kp": 8.672,
+        "imdb": 8.8
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450"
+      }
+    },
+    {
+      "id": 462606,
+      "name": "Области тьмы",
+      "alternativeName": "Limitless",
+      "year": 2011,
+      "rating": {
+        "kp": 8.036,
+        "imdb": 7.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/d3bfd32d-41b4-48ad-9584-b3fc1f5669d4/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1629390/d3bfd32d-41b4-48ad-9584-b3fc1f5669d4/300x450"
+      }
+    },
+    {
+      "id": 749374,
+      "name": "Атака титанов",
+      "alternativeName": "Shingeki no kyojin",
+      "year": 2013,
+      "rating": {
+        "kp": 8.731,
+        "imdb": 9.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/300x450"
+      }
+    },
+    {
+      "id": 843649,
+      "name": "Мстители: Война бесконечности",
+      "alternativeName": "Avengers: Infinity War",
+      "year": 2018,
+      "rating": {
+        "kp": 8.132,
+        "imdb": 8.4
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/af92d310-4ae5-4daa-b42c-5bcc380c2e6e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/af92d310-4ae5-4daa-b42c-5bcc380c2e6e/300x450"
+      }
+    },
+    {
+      "id": 2656,
+      "name": "Пятый элемент",
+      "alternativeName": "The Fifth Element",
+      "year": 1997,
+      "rating": {
+        "kp": 8.192,
+        "imdb": 7.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/36d8bd84-fc0f-428e-8a51-111c2aef34be/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/4483445/36d8bd84-fc0f-428e-8a51-111c2aef34be/300x450"
+      }
+    },
+    {
+      "id": 915196,
+      "name": "Очень странные дела",
+      "alternativeName": "Stranger Things",
+      "year": 2016,
+      "rating": {
+        "kp": 8.339,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/300x450"
+      }
+    }
+  ],
+  "фильм-нуар": [
+    {
+      "id": 9028,
+      "name": "В случае убийства набирайте «М»",
+      "alternativeName": "Dial M for Murder",
+      "year": 1954,
+      "rating": {
+        "kp": 8.072,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/31ff1781-2394-4521-affd-6fbfb7552b81/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1704946/31ff1781-2394-4521-affd-6fbfb7552b81/300x450"
+      }
+    }
+  ],
+  "фэнтези": [
+    {
+      "id": 464963,
+      "name": "Игра престолов",
+      "alternativeName": "Game of Thrones",
+      "year": 2011,
+      "rating": {
+        "kp": 9.008,
+        "imdb": 9.2
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1777765/dd78edfd-6a1f-486c-9a86-6acbca940418/300x450"
+      }
+    },
+    {
+      "id": 689,
+      "name": "Гарри Поттер и философский камень",
+      "alternativeName": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "rating": {
+        "kp": 8.317,
+        "imdb": 7.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1898899/27ed5c19-a045-49dd-8624-5f629c5d96e0/300x450"
+      }
+    },
+    {
+      "id": 435,
+      "name": "Зеленая миля",
+      "alternativeName": "The Green Mile",
+      "year": 1999,
+      "rating": {
+        "kp": 9.08,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/4057c4b8-8208-4a04-b169-26b0661453e3/300x450"
+      }
+    },
+    {
+      "id": 1224067,
+      "name": "Вампиры средней полосы",
+      "alternativeName": "Вампиры средней полосы",
+      "year": 2021,
+      "rating": {
+        "kp": 8.373,
+        "imdb": 7.5
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/d5f54f03-ea2f-4444-8ab7-5145372b489e/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703959/d5f54f03-ea2f-4444-8ab7-5145372b489e/300x450"
+      }
+    },
+    {
+      "id": 4374,
+      "name": "Пираты Карибского моря: Проклятие Черной жемчужины",
+      "alternativeName": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "rating": {
+        "kp": 8.392,
+        "imdb": 8.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/d7e3dbd6-e4a9-4485-b751-d02f49825166/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/d7e3dbd6-e4a9-4485-b751-d02f49825166/300x450"
+      }
+    },
+    {
+      "id": 749374,
+      "name": "Атака титанов",
+      "alternativeName": "Shingeki no kyojin",
+      "year": 2013,
+      "rating": {
+        "kp": 8.731,
+        "imdb": 9.1
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/e42e60bc-0772-4a3a-a24f-4218febf9386/300x450"
+      }
+    },
+    {
+      "id": 4647040,
+      "name": "Король и Шут",
+      "alternativeName": "Король и Шут",
+      "year": 2023,
+      "rating": {
+        "kp": 8.073,
+        "imdb": 6.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1485ac9a-7796-470b-a3eb-85dc725d4ec0/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/6201401/1485ac9a-7796-470b-a3eb-85dc725d4ec0/300x450"
+      }
+    },
+    {
+      "id": 430,
+      "name": "Шрэк",
+      "alternativeName": "Shrek",
+      "year": 2001,
+      "rating": {
+        "kp": 8.226,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/7ade06a8-4178-4386-9ee2-87fec5a172eb/300x450"
+      }
+    },
+    {
+      "id": 1316601,
+      "name": "Дом Дракона",
+      "alternativeName": "House of the Dragon",
+      "year": 2022,
+      "rating": {
+        "kp": 8.11,
+        "imdb": 8.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/e81636b8-fb18-44fb-9074-11fffe9cfc4a/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10592371/e81636b8-fb18-44fb-9074-11fffe9cfc4a/300x450"
+      }
+    },
+    {
+      "id": 915196,
+      "name": "Очень странные дела",
+      "alternativeName": "Stranger Things",
+      "year": 2016,
+      "rating": {
+        "kp": 8.339,
+        "imdb": 8.6
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/10703859/1e653cad-c84f-4617-b61e-949b3228ef36/300x450"
+      }
+    }
+  ],
+  "церемония": [
+    {
+      "id": 689591,
+      "name": "Чемпионат Европы по футболу 2008",
+      "alternativeName": "UEFA Euro 2008",
+      "year": 2008,
+      "rating": {
+        "kp": 8.125,
+        "imdb": 7.9
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/4486ff1a-5889-4f44-ae58-dd592dda11a6/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1946459/4486ff1a-5889-4f44-ae58-dd592dda11a6/300x450"
+      }
+    },
+    {
+      "id": 989253,
+      "name": "Церемония открытия летних Олимпийских игр 2012",
+      "alternativeName": "London 2012 Olympic Opening Ceremony: Isles of Wonder",
+      "year": 2012,
+      "rating": {
+        "kp": 8.074,
+        "imdb": 8.3
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c031fbcb-14f9-4356-a40b-1a4ba216fc7d/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c031fbcb-14f9-4356-a40b-1a4ba216fc7d/300x450"
+      }
+    },
+    {
+      "id": 557971,
+      "name": "11-я ежегодная церемония вручения премии Teen Choice Awards 2010",
+      "alternativeName": "Teen Choice Awards 2010",
+      "year": 2010,
+      "rating": {
+        "kp": 8.028,
+        "imdb": 5.7
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c1468367-32c8-406a-80be-02acdd04ef44/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1599028/c1468367-32c8-406a-80be-02acdd04ef44/300x450"
+      }
+    },
+    {
+      "id": 409115,
+      "name": "Финал чемпионата Европы по футболу 1988 года",
+      "alternativeName": "Finale van het E.K. '88",
+      "year": 1988,
+      "rating": {
+        "kp": 8.192,
+        "imdb": null
+      },
+      "poster": {
+        "url": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/c6d9f044-93a5-4d8b-b306-6f12e7b12d93/600x900",
+        "previewUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-kinopoisk-image/1773646/c6d9f044-93a5-4d8b-b306-6f12e7b12d93/300x450"
+      }
+    }
+  ]
+}

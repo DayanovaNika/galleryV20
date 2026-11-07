@@ -196,6 +196,15 @@ export class Controller {
     // listElement отключённым от DOM
     this.view.mainView.restoreList();
 
+    // Слайдер «самое популярное» берётся из статического файла и не
+    // зависит от основного запроса ниже. Если за это время пользователь
+    // ушёл на другую страницу (signal сработал) — уже не показываем
+    this.model.getTopByGenre(genreName).then((movies) => {
+      if (!signal?.aborted) {
+        this.view.mainView.showGenreTop(genreName, movies);
+      }
+    });
+
     try {
       const responseData = await this.model.getData({
         version: "1.4",

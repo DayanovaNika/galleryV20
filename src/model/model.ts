@@ -1,5 +1,6 @@
 import { Cache } from "../cache/cache";
 import { ApiError } from "./api-error";
+import type { TopByGenre, TopMovie } from "../types/top-types";
 
 // Ключ API берётся из файла .env в корне проекта (переменная VITE_API_KEY),
 // а не хранится в коде — .env добавлен в .gitignore и в репозиторий не попадает
@@ -118,6 +119,23 @@ export class Model {
     this.#cache.set(cacheKey, data, ttl);
 
     return data;
+  }
+
+  // Топ фильмов по жанрам лежит в статическом файле (его собирает
+  // scripts/build-top-by-genre.mjs), поэтому API для слайдера не нужен.
+  // Файл читаем один раз и держим результат в памяти
+  #topByGenre: Promise<TopByGenre> | null = null;
+
+  async getTopByGenre(genreName: string): Promise<TopMovie[]> {
+    if (!this.#topByGenre) {
+      this.#topByGenre = fetch(`${import.meta.env.BASE_URL}top-by-genre.json`)
+        .then((response) => (response.ok ? response.json() : {}))
+        // нет файла или он битый — просто работаем без слайдера
+        .catch(() => ({}));
+    }
+
+    const all = await this.#topByGenre;
+    return all[genreName] ?? [];
   }
 
   async setData(data) {

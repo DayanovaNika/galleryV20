@@ -72,7 +72,11 @@ class HeaderPrewiew {
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), 
         url(${imgUrl}) no-repeat center/cover;`;
 
-    const filmName = dataPreview.alternativeName;
+    // name — русское название (то же, что показывается в списке),
+    // alternativeName — оригинальное (часто английское). Оригинал
+    // берём только как запасной вариант, если русского названия нет
+    const filmName =
+      dataPreview.name || dataPreview.alternativeName || "нет названия";
     const ratingKp = dataPreview.rating && dataPreview.rating.kp || "none";
     const ratingImdb = dataPreview.rating && dataPreview.rating.imdb || "none";
     const movieLength = dataPreview.movieLength;

@@ -2,6 +2,8 @@ import Creator from "../../core/creator";
 import type { DataTypes } from "../../types/data-types";
 import { PreviewView } from "./prewiew-view";
 import { ActorsPrewiew } from "./prewiew-actor-view";
+import { GenreTopView } from "./genre-top-view";
+import type { TopMovie } from "../../types/top-types";
 import {
   mainParams,
   listParams,
@@ -36,6 +38,7 @@ export class MainView {
   prewiew;
   prewiewActor;
   statusView;
+  topSlider: HTMLElement | null = null;
 
   constructor() {
     this.element = new Creator(mainParams).getElement();
@@ -55,13 +58,14 @@ export class MainView {
     console.log(data);
 
     data.forEach((imageInfo) => {
-      liParams.attributes["data-id"] = imageInfo.id;
+      liParams.attributes["data-id"] = String(imageInfo.id);
       const li = new Creator(liParams).getElement();
 
       const image = new Creator(imageParams).getElement() as HTMLImageElement;
       if (imageInfo.poster && imageInfo.poster.previewUrl) {
         image.src = imageInfo.poster.previewUrl;
       } else {
+        // BASE_URL учитывает префикс /galleryV20/ на GitHub Pages
         image.src = `${import.meta.env.BASE_URL}zaglushka.jpg`;
       }
 
@@ -81,8 +85,22 @@ export class MainView {
 
       const ratingWrapper = new Creator(ratingWrapperParams).getElement();
 
-      for (const key in imageInfo.rating) {
-        if ((key === "kp" || key === "imdb") && imageInfo.rating[key] > 0) {
+      // rating в ответе API может отсутствовать — берём пустой объект,
+      // а значение читаем через Record, чтобы TypeScript не ругался
+      // на возможный undefined
+      const rating = (imageInfo.rating ?? {}) as Record<
+        string,
+        number | undefined
+      >;
+
+      for (const key in rating) {
+        const value = rating[key];
+
+        if (
+          (key === "kp" || key === "imdb") &&
+          value !== undefined &&
+          value > 0
+        ) {
           const ratingElement = new Creator(ratingElementParams).getElement();
           const counterRating = new Creator(counterRatingParams).getElement();
           const iconRating = new Creator(iconRatingParams).getElement();
@@ -90,7 +108,7 @@ export class MainView {
           criticsName.innerText = `${key}:`;
           ratingWrapper.append(ratingElement);
           ratingElement.append(criticsName, counterRating, iconRating);
-          counterRating.innerText = imageInfo.rating[key];
+          counterRating.innerText = String(value);
         } else {
           continue;
         }
@@ -138,13 +156,39 @@ export class MainView {
   }
 
   removeList() {
+    // слайдер «самое популярное» живёт только рядом со списком
+    this.removeGenreTop();
     this.listElement.remove();
+  }
+
+  // Слайдер «самое популярное» над списком на странице жанра.
+  // Если для жанра нет данных — ничего не показываем
+  showGenreTop(genreName: string, movies: TopMovie[]) {
+    this.removeGenreTop();
+
+    if (!movies.length || !this.listElement.isConnected) {
+      return;
+    }
+
+    this.topSlider = new GenreTopView(genreName, movies).getSection();
+    this.listElement.before(this.topSlider);
+  }
+
+  removeGenreTop() {
+    if (this.topSlider) {
+      this.topSlider.remove();
+      this.topSlider = null;
+    }
   }
 
   // Используется роутером при переходе на "/": убирает открытую
   // карточку фильма/актёра и возвращает список в DOM, если он был
   // изъят оттуда через removeList()
   restoreList() {
+    // на главной и в поиске слайдера нет; на странице жанра его покажет
+    // renderByGenre уже после этого вызова
+    this.removeGenreTop();
+
     if (this.prewiew) {
       this.prewiew.remove();
       this.prewiew = null;
