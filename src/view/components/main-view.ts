@@ -2,7 +2,7 @@ import Creator from "../../core/creator";
 import type { DataTypes } from "../../types/data-types";
 import { PreviewView } from "./prewiew-view";
 import { ActorsPrewiew } from "./prewiew-actor-view";
-import { GenreTopView } from "./genre-top-view";
+import { GenreTopView, LIST_WITH_SLIDER_CLASS } from "./genre-top-view";
 import type { TopMovie } from "../../types/top-types";
 import {
   mainParams,
@@ -172,9 +172,14 @@ export class MainView {
 
     this.topSlider = new GenreTopView(genreName, movies).getSection();
     this.listElement.before(this.topSlider);
+    // пока над списком слайдер, у самого списка убираем верхний отступ
+    this.listElement.classList.add(LIST_WITH_SLIDER_CLASS);
   }
 
   removeGenreTop() {
+    // класс снимаем всегда, даже если слайдера уже нет в памяти
+    this.listElement.classList.remove(LIST_WITH_SLIDER_CLASS);
+
     if (this.topSlider) {
       this.topSlider.remove();
       this.topSlider = null;

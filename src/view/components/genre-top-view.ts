@@ -1,19 +1,41 @@
     import Creator from "../../core/creator";
     import type { TopMovie } from "../../types/top-types";
+    import style from "./styles/genre-top.module.css";
 
     import {
-    titleParams,
-    createBoxParams,
-    sectionParams,
     listMoviesParams,
     movieParams,
     movieNameParams,
     yearMovieParams,
     } from "./params/slider-params";
 
-    // Слайдер «самое популярное» над списком на странице жанра.
-    // Карточки собираем из тех же параметров, что и остальные слайдеры
-    // (фильмография актёра, похожие фильмы), поэтому и выглядят так же.
+    // Класс, который main-view вешает на список, пока над ним виден слайдер
+    export const LIST_WITH_SLIDER_CLASS = style.listWithSlider;
+
+    const wrapperParams = {
+    tagName: "section",
+    classList: [style.wrapper],
+    attributes: {},
+    };
+
+    const titleParams = {
+    tagName: "h2",
+    classList: [style.title],
+    text: "самые популярные: ",
+    attributes: {},
+    };
+
+    const genreParams = {
+    tagName: "span",
+    classList: [style.genre],
+    text: "",
+    attributes: {},
+    };
+
+    // Слайдер «самые популярные» над списком на странице жанра.
+    // Сами карточки собираем из тех же параметров, что и в остальных
+    // слайдерах (фильмография актёра, похожие фильмы), поэтому они
+    // выглядят так же; а обёртка и заголовок — свои, с понятными отступами.
     export class GenreTopView {
     sectionElement: HTMLElement;
 
@@ -22,10 +44,12 @@
     }
 
     build(genreName: string, movies: TopMovie[]): HTMLElement {
-        titleParams.text = `самое популярное: ${genreName}`;
+        const wrapper = new Creator(wrapperParams).getElement() as HTMLElement;
+
         const title = new Creator(titleParams).getElement() as HTMLElement;
-        const createBox = new Creator(createBoxParams).getElement() as HTMLElement;
-        const section = new Creator(sectionParams).getElement() as HTMLElement;
+        genreParams.text = genreName;
+        title.append(new Creator(genreParams).getElement());
+
         const listMovies = new Creator(listMoviesParams).getElement() as HTMLElement;
 
         movies.forEach((movie) => {
@@ -55,9 +79,8 @@
         card.append(new Creator(yearMovieParams).getElement());
         });
 
-        createBox.append(title, listMovies);
-        section.append(createBox);
-        return section;
+        wrapper.append(title, listMovies);
+        return wrapper;
     }
 
     getSection(): HTMLElement {

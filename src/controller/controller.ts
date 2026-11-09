@@ -50,12 +50,10 @@ export class Controller {
     // таймаут, лимит API), страницу всё равно рисуем — просто без
     // жанров, а не оставляем пользователя с пустым экраном
     let genres = [];
-    let genresFailed = false;
 
     try {
       genres = await this.model.genresList;
     } catch (error) {
-      genresFailed = true;
       console.error("Не удалось загрузить список жанров:", error);
     }
 
@@ -67,7 +65,10 @@ export class Controller {
     // ничего не знают про клики/события — те же методы дёргаются
     // и при навигации, и при прямом заходе по ссылке.
     this.router = new Router([
-      { pattern: "/", handler: () => this.renderHome() },
+      {
+        pattern: "/",
+        handler: (_params, _query, signal) => this.renderHome(signal),
+      },
       // третьим аргументом роутер передаёт signal — он срабатывает,
       // когда пользователь уходит на другую страницу, и renderX
       // прекращает работу (см. AbortController в Router)
@@ -102,16 +103,6 @@ export class Controller {
     // Разбирает текущий URL при старте — именно это открывает
     // /movie/301 сразу, если вставить такую ссылку в браузер
     this.router.start();
-
-    // На остальных страницах ошибку покажет сам renderX, а на главной
-    // иначе осталась бы просто пустая страница без объяснений
-    // (сравниваем с корнем приложения: "/" локально и base на Pages)
-    if (genresFailed && window.location.pathname === import.meta.env.BASE_URL) {
-      this.view.mainView.makeStatusView(
-        "error",
-        "Не удалось связаться с сервером. Проверьте интернет или VPN и обновите страницу.",
-      );
-    }
   }
 
   setFormListener() {
@@ -134,12 +125,52 @@ export class Controller {
   // для запроса (id/query/genre), ничего не берёт из event. Их вызывает
   // Router — и по клику (через navigate), и по прямому заходу на URL.
 
-  async renderHome() {
+  // Главная: сразу показываем самые известные фильмы с высоким рейтингом.
+  // Список общий с поиском и жанрами (тот же listElement), поэтому логика
+  // такая же, как в renderByGenre, только без фильтра по жанру
+  async renderHome(signal?: AbortSignal) {
+    this.view.mainView.showLoader();
     this.view.mainView.restoreList();
-    // Если мы ушли сюда, не дождавшись загрузки другой страницы, её
-    // renderX отменён и сам лоадер уже не уберёт — убираем здесь
-    this.view.mainView.removeLoader();
     this.view.mainView.scrollToTop();
+
+    try {
+      const response = await this.model.getData({
+        version: "1.4",
+        chapter: "movie",
+        path: "",
+        params: {
+          limit: 12,
+          sortField: "rating.kp",
+          sortType: -1,
+          // только действительно известные фильмы: у них много оценок,
+          // поэтому высокий рейтинг не случайный
+          "votes.kp": "100000-99999999",
+        },
+        signal,
+      });
+
+      if (signal?.aborted) {
+        return;
+      }
+
+      this.model.setData(response);
+      this.model.sortRating(this.model.dataFromServer);
+      this.view.mainView.createImageList(this.model.dataFromServer.docs);
+    } catch (error) {
+      if (isAbortError(error) || signal?.aborted) {
+        return;
+      }
+
+      this.view.mainView.makeStatusView(
+        "error",
+        "Не удалось загрузить фильмы. Проверьте интернет или VPN и обновите страницу.",
+      );
+      console.error("Ошибка при загрузке главной:", error);
+    } finally {
+      if (!signal?.aborted) {
+        this.view.mainView.removeLoader();
+      }
+    }
   }
 
   async renderSearchResults(query: string, signal?: AbortSignal) {
@@ -414,7 +445,8 @@ export class Controller {
   // Вызывается роутером, если путь вообще не совпал ни с одним
   // паттерном (опечатка в адресе, несуществующий раздел и т.д.)
   async renderNotFound() {
-    // как и в renderHome: лоадер от отменённой страницы убираем здесь
+    // сюда можно прийти, не дождавшись загрузки другой страницы: её
+    // renderX отменён и лоадер уже не уберёт — убираем здесь
     this.view.mainView.removeLoader();
     this.view.mainView.makeStatusView("not-found");
   }
